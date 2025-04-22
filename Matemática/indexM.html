@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Matemática </title>
+
+        <!-- link do css -->
+    <link rel="stylesheet" href="styleM.css">
+
+        <!-- link da fonte de títulos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+
+    <!-- link da fonte de corpo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+            <a> Maria Eduarda Mello </a> 
+            <div class="nav">   <!-- Criando uma nav bar com os requisitos do portfólio solicitados  -->
+                <a href="../index.html"> Home </a>
+                <a href="../Linguagens/indexL.html"> Linguagens </a>
+                <a href="../Natureza/indexN.html"> Natureza </a>
+                <a href="../Humanas/indexH.html"> Humanas </a>
+                <a href="../Desenvolvimento/indexD.html"> Técnico </a>          
+            </div>
+    </header>
+
+    <h1> Matemática </h1>
+
+<div class="navTris">   <!-- Criando uma nav bar com os requisitos do portfólio solicitados  -->
+    <a onclick="mostrarTrimestre(1)" id="tris1"> 1º Trimestre</a>
+    <a onclick="mostrarTrimestre(2)"id="tris2"> 2º Trimestre</a>
+    <a onclick="mostrarTrimestre(3)" id="tris3"> 3º Trimestre</a>
+</div>
+
+<section class="(1)" id="trimestre1"> 
+    <section class="primeiro-tri"> 
+        <div class="container">
+        <div class="card">   <!--  é o cardzinho que esta aparecendo na tela  -->
+            <h2> QUEBRANDO A BANCA </h2>  <hr>
+                <button id="abrirModal">   <!-- todas as informações da tela estão dentro desse botão, que ao clicar vai abrir um modal -->
+                    <img src="../Matemática/img/attM1.jpg" alt="Imagem">       <!-- ta chamando a imagem da atividade  -->
+                </button>
+            </div>
+
+                <div class="modal" id="modal">   <!-- cria uma divisão só para o que vai dentro do modal -->
+                    <div class="conteudoModal">  <!-- dentro dessa div aparece tudo no modal -->
+                        <h4 class="tituloProjeto"> QUEBRANDO A BANCA <hr> </h4> 
+                                <a href="https://docs.google.com/document/d/1nJdkFZkNM6ByrzoumJyCUbKi1OFLSB5WyeQRqvsZ9-g/edit?usp=sharing"> 
+                                    <img src="../Matemática/img/attM1.jpg" class="imagemModal">       <!-- ta chamando a imagem da atividade  -->
+                                </a>
+                            <p> <strong> HABILIDADES E COMPETÊNCIAS: </strong>  C5, H31 e H32 </p>
+                            <p> <strong> OBJETIVO: </strong> Aprender sobre Probabilidade de forma prática e dinâmica, usando filme e atividades. </p>
+                            <p> <strong> ASSUNTO: </strong> O conteúdo trabalhado é Probabilidade, que estuda as chances de algo acontecer. A ideia é entender esse conceito de maneira aplicada, primeiro debatendo exercícios, depois assistindo ao filme Quebrando a Banca, que mostra como a probabilidade pode ser usada em situações reais, como jogos de cartas e apostas, e por fim, realizando atividades sobre o filme. </p>
+                            <p> <strong> CRÍTICA: </strong> Achei a proposta legal, porque deixa o conteúdo mais leve e interessante, além de valorizar a participação e a criatividade. </p>
+                        <button id="fecharModal" class="fecharModal"> Voltar </button> <!-- esse é o botão para sair -->
+                    </div>
+                </div>
+
+            <div class="card">
+                <h2> CRIANDO A BANCA </h2>  <hr>
+                
+                <button id="abrirModal1">   <!-- todas as informações da tela estão dentro desse botão, que ao clicar vai abrir um modal -->
+                    <img src="../Matemática/img/attM2.png" alt="Imagem">       <!-- ta chamando a imagem da atividade  -->
+                </button>
+            </div>
+
+            <div class="modal" id="modal1">  <!-- cria uma divisão só para o que vai dentro do modal -->
+
+                <div class="conteudoModal1"> <!-- dentro dessa div aparece tudo no modal -->
+                    <h4 class="tituloProjeto"> CRIANDO A BANCA  </h4>
+
+                        <a href="https://www.canva.com/design/DAGk4tGaHtc/Gk72R2d22CZBLqvFnojl1A/edit?utm_content=DAGk4tGaHtc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> 
+                            <img src="../Matemática/img/attM2.png" class="imagemModal">       <!-- ta chamando a imagem da atividade  -->
+                        </a>
+
+                    <p> <strong> HABILIDADES E COMPETÊNCIAS: </strong> C5, H30 e H31 </p>
+                    <p> <strong> OBJETIVO: </strong> O objetivo dessa atividade é a gente criar um jogo ou atividade divertida usando os conteúdos de Análise Combinatória e Probabilidade, que a gente viu nas aulas e no filme Quebrando a Banca. A ideia é pensar em estratégias, e usar esses conceitos para montar um jogo legal, onde a gente também possa trabalhar em grupo e se divertir enquanto aprende. </p>
+                    <p> <strong> ASSUNTO: </strong> O assunto envolve Análise Combinatória e Probabilidade, que servem para calcular as chances e organizar possibilidades. A ideia é usar esses conceitos na criação de um jogo com regras claras e estratégias. </p>
+                    <p> <strong> CRÍTICA: </strong> Achei a atividade bem diferente e divertida, porque a gente aprende enquanto cria. Mas acho que o tempo que tivemos pra desenvolver o jogo foi muito curto. Com um prazo maior, daria pra testar melhor as ideias, ajustar as regras e caprichar mais na apresentação.  </p>
+
+                    <button id="fecharModal1" class="fecharModal"> Voltar </button> <!-- esse é o botão para sair -->
+                </div>
+            </div>
+            </div>
+    </section>  
+</section>
+
+<section class="(2)" id="trimestre2">
+    <div class='esperando'>
+        <h3> Nenhuma atividade disponível! </h3> <br> 
+        <img src="../Matemática/img/novosTris1.jpg">
+    </div>
+</section>
+
+<section class="(3)" id="trimestre3">
+    <div class='esperando'>
+        <h3> Nenhuma atividade disponível! </h3> <br> 
+        <img src="../Matemática/img/novosTris.jpg">
+    </div>
+</section>
+
+
+    <script src="scriptM.js"> </script> <!-- link do JavaScript -->
+</body>
+</html>

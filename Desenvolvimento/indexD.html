@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Técnico </title>
+
+    <!-- link da fonte de títulos -->
+    <link rel="stylesheet" href="styleD.css">
+
+    <!-- link da fonte de títulos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+
+    <!-- link da fonte de corpo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <a> Maria Eduarda Mello </a> 
+        <div class="nav">   <!-- Criando uma nav bar com os requisitos do portfólio solicitados  -->
+            <a href="../index.html"> Home </a>
+            <a href="../Linguagens/indexL.html"> Linguagens </a>
+            <a href="../Natureza/indexN.html"> Natureza </a>
+            <a href="../Matemática/indexM.html"> Matemática </a>
+            <a href="../Humanas/indexH.html"> Humanas </a>
+        </div>
+    </header>
+
+<div class="conteudo">
+    <h1> Técnico </h1>
+    <h2> MODELAGEM DE SISTEMAS </h2>
+</div>
+  
+<div class="navTris">   <!-- Criando uma nav bar com os requisitos do portfólio solicitados  -->
+    <a onclick="mostrarTrimestre(1)" id="tris1"> 1º Trimestre</a>
+    <a onclick="mostrarTrimestre(2)"id="tris2"> 2º Trimestre</a>
+    <a onclick="mostrarTrimestre(3)" id="tris3"> 3º Trimestre</a>
+</div>
+
+
+<section class="(1)" id="trimestre1"> 
+    <div class="container">
+        <div class="card">   <!--  é o cardzinho que esta aparecendo na tela  -->
+        <h2> HAMBURGUERIA </h2>  <hr>
+            <button id="abrirModal">   <!-- todas as informações da tela estão dentro desse botão, que ao clicar vai abrir um modal -->
+                <img src="../Desenvolvimento/img/attD1.png" alt="Imagem">       <!-- ta chamando a imagem da atividade  -->
+                </button>
+        </div>
+
+            <div class="modal" id="modal">   <!-- cria uma divisão só para o que vai dentro do modal -->
+                <div class="conteudoModal">  <!-- dentro dessa div aparece tudo no modal -->
+                    <h4 class="tituloProjeto"> HAMBURGUERIA <hr> </h4> 
+                            <a href="https://docs.google.com/spreadsheets/d/1zeXDrW4tHyuQdu6VeOituDGNo7nwDety7_0EH5teFa0/edit?usp=sharing"> 
+                                <img src="../Desenvolvimento/img/attD1.png" class="imagemModal">       <!-- ta chamando a imagem da atividade  -->
+                            </a>
+                        <p> <strong> HABILIDADES E COMPETÊNCIAS: </strong> H4, H7, H8 </p>
+                        <p> <strong> OBJETIVO: </strong> Ensinar a importância e como documentar requisitos não funcionais em sistemas. </p>
+                        <p> <strong> ASSUNTO: </strong> Mostra como identificar, classificar e escrever requisitos que definem como o sistema deve funcionar (ex: desempenho, segurança, usabilidade), com aplicação prática em um sistema que deveríamos criar de uma hamburgueria.</p>
+                        <p> <strong> CRÍTICA: </strong> Esse conteúdo destaca que um sistema não funciona sozinho, e mesmo se funcionar, ele precisa funcionar bem, com qualidade e boa experiência para o usuário. A documentação dos requisitos não funcionais ajuda a garantir isso. </p>
+                    <button id="fecharModal" class="fecharModal"> Voltar </button> <!-- esse é o botão para sair -->
+                </div>
+            </div>
+
+        <div class="card">
+            <h2> LIGHT POINT (S.A) </h2>  <hr>
+            
+            <button id="abrirModal1">   <!-- todas as informações da tela estão dentro desse botão, que ao clicar vai abrir um modal -->
+                <img src="../Desenvolvimento/img/attD2.png" alt="Imagem">       <!-- ta chamando a imagem da atividade  -->
+            </button>
+        </div>
+
+        <div class="modal" id="modal1">  <!-- cria uma divisão só para o que vai dentro do modal -->
+
+            <div class="conteudoModal1"> <!-- dentro dessa div aparece tudo no modal -->
+                <h4 class="tituloProjeto"> LIGHT POINT (S.A) </h4>
+
+                    <a href="https://www.canva.com/design/DAGh-y_PTiU/66hB8Hqlm6Eqfocm5QP6rQ/edit?utm_content=DAGh-y_PTiU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> 
+                        <img src="../Desenvolvimento/img/attD2.png" class="imagemModal">       <!-- ta chamando a imagem da atividade  -->
+                    </a>
+                <p> <strong> HABILIDADES E COMPETÊNCIAS: </strong> H1, H2, H3, H4, H6, H7 </p>
+                <p> <strong> OBJETIVO: </strong> Desenvolver e implantar um sistema inteligente de monitoramento e controle do consumo de energia elétrica em residências, utilizando sensores IoT, banco de dados e aplicativos móveis, com foco em otimizar o uso da energia e promover sustentabilidade. </p>
+                <p> <strong> ASSUNTO: </strong> O projeto faz parte da Situação de Aprendizagem (SA) do 3º ano do curso técnico do SENAI, integrando diversas disciplinas como Banco de Dados, IoT, Programação de Aplicativos, Modelagem de Sistemas, entre outras.  A proposta é criar um sistema inteligente que use tecnologia IoT para monitorar o consumo de energia em tempo real, gerar alertas e relatórios, e auxiliar o usuário a reduzir desperdícios, otimizando o consumo. </p>
+                <p> <strong> CRÍTICA: </strong> Eu adorei fazer essa atividade! Meu grupo foi incrível, super colaborativo e criativo, trabalhar com eles fez total diferença. O tema que escolhemos está sendo muito legal de desenvolver, e foi super satisfatório ver tudo tomando forma aos poucos. Essa abordagem prática e contínua ajudou bastante a fixar o conteúdo.</p>
+            <button id="fecharModal1" class="fecharModal"> Voltar </button> <!-- esse é o botão para sair -->
+            </div>
+        </div>
+        </div>
+</section>
+    
+    
+<section class="(2)" id="trimestre2">
+    <div class='esperando'>
+        <h3> Nenhuma atividade disponível! </h3> <br> 
+        <img src="../Humanas/img/novosTris1.jpg">
+    </div>
+</section>
+    
+<section class="(3)" id="trimestre3">
+    <div class='esperando'>
+        <h3> Nenhuma atividade disponível! </h3> <br> 
+        <img src="../Humanas/img/novosTris.jpg">
+    </div>
+</section>
+
+    <script src="scriptD.js"> </script> <!-- link do JavaScript -->
+</body>
+</html>

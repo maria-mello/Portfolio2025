@@ -1,0 +1,329 @@
+body {
+    background-color: #80331D;
+    color: #F5EBDC;
+    font-family: "Afacad Flux", sans-serif;
+    width: 100%; /* define a largura áxima para o site */
+    height: 100vh; /* define a altura máxima baseada na altura visível (viewport) de uma página na web */ 
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.ranchers-regular {
+    font-family: "Ranchers", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.afacad-flux-{
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10%;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+h1{
+    font-family: "Ranchers", sans-serif;
+    font-size: 1300%;
+    margin: -5%;
+    margin-left: -8%;
+    text-transform: uppercase;
+    position:absolute;
+}
+
+.home { 
+    width: 90%;
+    max-width: 100%;
+    position: relative; 
+    margin: 0 auto; /* centraliza os elementos */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    width: 98%;
+    z-index: 1000;   
+
+    padding: 1%;
+    text-align: center;
+    background-color: #80331D;
+    font-size: 115%;
+}
+
+.header, a{
+    color: #F5EBDC;
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: baseline;
+    text-decoration: none;
+}
+
+.titulo{
+    display: block;
+    padding: 8%;
+    text-align: center;
+    font-size: 100%;
+    margin-bottom:5%;
+    
+}
+
+.perfil {
+    position: absolute; 
+    width: 15%;
+    border-radius: 5%;
+    right: 5%;
+    top: 2%;
+    
+}
+
+.wallpaper, img {
+    display: block;
+    margin-top: 60px;
+    width: 100%;
+    padding-top: 1%;
+    border-radius: 40px;
+}
+
+p{
+    z-index: 1;
+    font-family: "Ranchers", sans-serif;
+    font-size: 750%;
+    margin: 5% 5% 1% 1%;
+    color: #F5EBDC;
+    width: 50.6%;
+    padding: 1%;
+}
+
+.descrição{
+    z-index: 2;
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+    text-align: justify;
+    padding: 1%;
+    width: 55%;
+
+}
+
+.detalhes{
+    z-index: 3;
+    font-family: "Afacad Flux", sans-serif;
+    width: 55%;
+    padding: 1%;
+    text-align: left;
+    float: right;
+}
+
+.sobreMim{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.botao{
+    margin-top: 3%;
+    margin-left: 45%;
+    border: 2px solid #F5EBDC;
+    border-radius: 7.8%;
+    padding: 1%;
+    height: 3%;
+    width: 15%;
+    text-align: center;
+}
+
+.areasCohecimento{
+    font-family: "Ranchers", sans-serif;
+}
+
+.t1{
+    z-index: 3;
+    font-family: "Ranchers", sans-serif;
+    font-size: 800%;
+    margin-right: 40%;
+    margin-top: 5%;
+    color: #F5EBDC;
+    width: 50%;
+    padding: 2%;
+}
+
+.t2{
+    z-index: 3;
+    font-family: "Ranchers", sans-serif;
+    font-size: 800%;
+    margin: 5% 3% 1% 40%;
+    color: #F5EBDC;
+    width: 50.6%;
+    padding: 5%;
+}
+
+/* fazendo a polaroid que fica do lado do "quem sou eu" */
+.fotos{
+    position: absolute;
+    width: 30%;
+    height: 10%;
+    margin-bottom: 5%;
+    margin-top: 1%;
+    margin-right: 60.8%;
+    padding: 2%;
+}
+
+h3, strong{
+    font-size: 150%;
+}
+
+h3{
+    margin: 2%;
+}
+
+section#sobreMim.sobreMim{
+    margin-right: 2.2%;
+}
+
+.areasConhecimento {
+    display: flex; 
+    margin: 0 auto;
+    z-index: 1;
+    gap: 20px; /* espaço entre as molduras */
+    justify-content: center; /* alinha no meio */
+    align-items: center; /* alinha verticalmente */
+    flex-wrap: nowrap; /* evita que os itens desçam para a próxima linha */
+    padding: 5%;
+}
+
+.areasCohecimento, .t1{
+    margin-top: 20%;
+}
+
+.borda {
+    margin: 1%;
+    width: 20%;
+    background-color: #f8f1df; /* Cor de fundo das molduras */
+    padding: 5px;
+    text-align: center;
+    font-size: 300%;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 5%;
+}
+
+.borda:hover{
+    transform: scale(1.0) translateY(-5px); /* aumenta 10% e sobre 5px */
+}
+
+.ads {
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 50%;
+    font-weight: bold;
+    color: #80331D;
+}
+
+.icon{
+    position: absolute;
+    right: 0; /* alinha o ícone à direita dentro da div */
+    z-index: 2;
+    width: 40%;
+    height: auto;
+    margin-top: 15%;
+}
+
+.area{
+    display: flex; 
+    align-items: center; /* Alinha verticalmente */
+    margin-top: -10%;
+}
+
+.rodape {
+    position: relative;
+    bottom: 0;
+    width: 95%;
+    height: 5%;
+    background-color: #80331D;
+    padding: 2%;
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 150%;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+h5{
+    color: #80331D;
+}
+
+.certificados-container {
+    display: flex;
+    flex-wrap: wrap; /* <- wrap para quebrar no celular */
+    margin-left: 5%;
+    margin-top: -5%;
+    gap: 5%;
+    width: 90%;
+}
+
+.tamanho, .tamanhoP {
+    width: 45%;
+}
+
+.certi, .certi02 {
+    width: 100%; /* agora todas ocupam 100% do container */
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    object-fit: cover;
+    margin-bottom: 5%;
+}
+
+.certi:hover, .certi02:hover {
+    transform: scale(1.03);
+}
+
+.certificados a {
+    display: inline-block;
+    padding: 0.5%;
+    color: #fff;
+    border-radius: 5%;
+    text-decoration: none;
+    margin-top: -5%;
+    background-color: #c84a3c00;
+    transition: background-color 0.3s ease;
+}
+
+.certificados a:hover {
+    background-color: #a0382e29;
+}
+
+.t3{
+    z-index: 3;
+    font-family: "Ranchers", sans-serif;
+    font-size: 800%;
+    margin: 5% 3% 1% 1%;
+    color: #F5EBDC;
+    padding: 2%;
+}
+
+.icon02{
+    position: absolute;
+    left: 0; /* alinha o ícone à direita dentro da div */
+    z-index: 2;
+    width: 25%;
+    height: auto;
+}
+
+.ppeC{
+    margin: 5%;
+    margin-top: -2%;
+    width: 25%;
+    border-radius: 10%;
+    transition: background-color 0.3s ease;
+}
+
+.ppeC:hover{
+    transform: scale(1.03);
+}

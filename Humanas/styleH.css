@@ -1,0 +1,278 @@
+body {
+  background-color: #80331D;
+  font-family: "Ranchers", sans-serif;
+  color: #F5EBDC;
+  font-family: "Afacad Flux", sans-serif;
+  width: 100%; /* define a largura máxima para o site */
+  height: 100vh; /* define a altura máxima baseada na altura visível (viewport) de uma página na web */ 
+  margin: 0;
+  padding: 0;
+  align-items: center;
+
+}
+
+.ranchers-regular {
+  font-family: "Ranchers", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.afacad-flux-{
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 10%;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+h1{
+  font-family: "Ranchers", sans-serif;
+  font-size: 800%;
+  display: flex;
+  justify-content: center;
+  top: -10%;
+}
+
+h2{
+  font-family: "Afacad Flux", sans-serif;
+  font-size: X-large;
+  color: white
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 99%;
+  margin-left: -0.5%;
+  z-index: 1000;
+  padding: 1%;
+  text-align: center;
+  background-color: #80331D;
+  font-size: 115%;
+  color: #80331D;
+  border: 1px solid white;
+}
+
+.header, a{
+  background-color: #80331D;
+  text-decoration: none;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: flex-end;
+  align-items: baseline;
+  text-decoration: none;
+  background-color: 80331D;
+}
+
+.navTris, a{
+  color: white;
+}
+
+.navTris{ 
+  background-color: #80331D;
+  border-radius: 10%;
+  margin-top: -5%;
+  margin-bottom: 5%;
+  padding: 0.5%;
+  font-size: 150%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+  flex-direction: row;
+}
+
+/* MODAL */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: -7%;
+  padding: 5%;
+
+  gap: 5%; /* espaço entre os cards */
+}
+
+.card {
+  border: 2px solid white;
+  width: 40%;
+  padding: 10px;
+  margin: 1%;
+  text-align: center;
+  color: black;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 5%;
+}
+
+.card:hover{
+  transform: scale(1.0) translateY(-5px); /* aumenta 10% e sobre 5px */
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.primeiro-tri {
+  display: flex;
+  justify-content: center;
+  width: 100%;  
+  flex-wrap: wrap;
+}
+
+.conteudoModal, .conteudoModal1{ /* modal das atividades  */
+  background-color: #ffffff;
+  padding: 5%;
+  width: 50%;
+  height: 100%;
+  border-radius: 5%;
+  box-shadow: 0px 2px 5px rgba(216, 72, 72, 0.288);
+}
+
+.modal, .modal1{ /* modal das atividades  */
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: space-evenly;
+  align-items: center;
+  color: black;
+  z-index: 9999;
+}
+
+.conteudoModal, .conteudoModal1{
+  max-height: 70vh; /* altura máxima do modal: 80% da altura da janela */
+  overflow-y: auto; /* ativa o scroll vertical se o conteúdo ultrapassar */
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.conteudoModal::-webkit-scrollbar {
+  width: 8px;
+}
+
+.conteudoModal::-webkit-scrollbar-thumb {
+  background: #310101;
+  border-radius: 4px;
+}
+
+.conteudoModal1::-webkit-scrollbar {
+  width: 8px;
+}
+
+.conteudoModal1::-webkit-scrollbar-thumb {
+  background: #310101;
+  border-radius: 4px;
+}
+
+.imagemModal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;      
+  text-align: center;
+  margin-left: 10%;
+  width: 80%;
+  height: 70%;
+}
+
+h4{
+  font-family: "Ranchers", sans-serif;
+  font-size: xX-large ;
+  text-align: center;
+}
+
+button{ 
+  width: 100%; /* agora todas ocupam 100% do container */
+  background-color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-family: "Afacad Flux", sans-serif;
+  font-size: large;
+}
+/* FIM DOS MODÁIS  */
+
+hr{ 
+  width: 90%;
+  height: 100%;
+  color: rgba(255, 255, 255, 0.457);
+}
+
+strong{
+  color: #80331D;
+}
+
+.tituloProjeto{
+  color: #80331D;
+}  
+
+section{
+  display: none; /*esconde todas as sections */
+}
+
+section.ativo{
+  display: block; /* mostra a seção que estiver visível */
+}
+
+.esperando{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -4%;
+  font-size: xx-large;
+  font-family: "Afacad Flux", sans-serif;
+}
+
+.esperando img{
+  margin-top: -5%;
+  width: 25%;
+  border-radius: 10%;
+}
+
+#tris1{
+  border: 1px solid rgba(255, 255, 255, 0.192);
+  border-radius: 10px;
+  padding: 2%;
+}
+
+#tris2{
+  border: 1px solid rgba(255, 255, 255, 0.192);
+  border-radius: 10px;
+  padding: 2%;
+}
+
+#tris3{
+  border: 1px solid rgba(255, 255, 255, 0.192);
+  border-radius: 10px;
+  padding: 2%;
+}
+
+.navTris a {
+  padding: 5px 10;
+  font-size: 100%;
+  color: white;
+  background-color: #80331D; /* Cor de fundo inicial */
+  text-decoration: none; 
+  border-radius: 5px; /* Bordas arredondadas */
+  transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}
+
+/* Estilo ao passar o cursor sobre os links */
+.navTris a:hover {
+  color: #80331D;
+  background-color: #f8f1df; /* Nova cor de fundo ao passar o mouse */
+}
