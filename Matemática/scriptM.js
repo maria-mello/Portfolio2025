@@ -49,3 +49,41 @@ function mostrarTrimestre(numero) {
   }
 
 mostrarTrimestre('trimestre1');
+
+// MODAL DA ATT3 (SEGUNDO TRIMESTRE)
+const modal2 = document.getElementById('modal2'); // chama pelo id do html a div do modal 
+const abrirModal2 = document.getElementById('abrirModal2'); // chama pelo id do html a class do botão para abrir
+const fecharModal2 = document.getElementById('fecharModal2'); // chama pelo id do html a class do botão para fechar
+
+abrirModal2.addEventListener('click', () =>{ // adiciona um evento  ao clicar no botão
+    modal2.style.display = 'flex'; // e nesse evento o modal abre o css que foi criado para ele e o 'display: none;' é substituido pelo 'flex;'
+});
+
+fecharModal2.addEventListener('click', () =>{ // adiciona um evento ao clicar no botão
+    modal2.style.display = 'none'; // nesse evento o 'display: flex;' que tinha sido incluso é trocado de volta pelo 'display: none;'
+}); 
+ 
+modal2.addEventListener('click', (e) => {
+    if (e.target === modal2) { // Verifica se o clique foi fora da área de conteúdo
+        modal2.style.display = 'none';
+    }
+});
+
+// MODAL DA ATT4 (SEGUNDO TRIMESTRE)
+const modal3 = document.getElementById('modal3'); // chama pelo id do html a div do modal 
+const abrirModal3 = document.getElementById('abrirModal3'); // chama pelo id do html a class do botão para abrir
+const fecharModal3 = document.getElementById('fecharModal3'); // chama pelo id do html a class do botão para fechar
+
+abrirModal3.addEventListener('click', () =>{ // adiciona um evento  ao clicar no botão
+    modal3.style.display = 'flex'; // e nesse evento o modal abre o css que foi criado para ele e o 'display: none;' é substituido pelo 'flex;'
+});
+
+fecharModal3.addEventListener('click', () =>{ // adiciona um evento ao clicar no botão
+    modal3.style.display = 'none'; // nesse evento o 'display: flex;' que tinha sido incluso é trocado de volta pelo 'display: none;'
+}); 
+ 
+modal3.addEventListener('click', (e) => {
+    if (e.target === modal3) { // Verifica se o clique foi fora da área de conteúdo
+        modal3.style.display = 'none';
+    }
+});

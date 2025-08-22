@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Humanas </title>
 
-        <!-- link do css  -->
+    <!-- link do css  -->
     <link rel="stylesheet" href="styleH.css">
 
 
@@ -20,10 +21,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
 
 </head>
-<body>  
+
+<body>
     <header>
-        <a> Maria Eduarda Mello </a> 
-        <div class="nav">   <!-- Criando uma nav bar com os requisitos do portfólio solicitados  -->
+        <a> Maria Eduarda Mello </a>
+        <div class="nav"> <!-- Criando uma nav bar com os requisitos do portfólio solicitados  -->
             <a href="../index.html"> Home </a>
             <a href="../Linguagens/indexL.html"> Linguagens </a>
             <a href="../Natureza/indexN.html"> Natureza </a>
@@ -31,80 +33,200 @@
             <a href="../Desenvolvimento/indexD.html"> Técnico </a>
         </div>
     </header>
-    
+
     <h1> Humanas </h1>
 
-<div class="navTris">   <!-- Criando uma nav bar com os requisitos do portfólio solicitados  -->
-    <a onclick="mostrarTrimestre(1)" id="tris1"> 1º Trimestre</a>
-    <a onclick="mostrarTrimestre(2)"id="tris2"> 2º Trimestre</a>
-    <a onclick="mostrarTrimestre(3)" id="tris3"> 3º Trimestre</a>
-</div>
+    <div class="navTris"> <!-- Criando uma nav bar com os requisitos do portfólio solicitados  -->
+        <a onclick="mostrarTrimestre(1)" id="tris1"> 1º Trimestre</a>
+        <a onclick="mostrarTrimestre(2)" id="tris2"> 2º Trimestre</a>
+        <a onclick="mostrarTrimestre(3)" id="tris3"> 3º Trimestre</a>
+    </div>
 
-<section class="(1)" id="trimestre1"> 
-    <div class="container">
-      <div class="card">   <!--  é o cardzinho que esta aparecendo na tela  -->
-        <h2> CONFLITOS IMERIALISTAS </h2>  <hr>
-            <button id="abrirModal">   <!-- todas as informações da tela estão dentro desse botão, que ao clicar vai abrir um modal -->
-                <img src="../Humanas/img/attH1.png" alt="Imagem">       <!-- ta chamando a imagem da atividade  -->
-             </button>
-        </div>
+<section class="(1)" id="trimestre1">
+        <div class="container">
+            <div class="card"> <!--  é o cardzinho que esta aparecendo na tela  -->
+                <h2> CONFLITOS IMERIALISTAS </h2>
+                <hr>
 
-            <div class="modal" id="modal">   <!-- cria uma divisão só para o que vai dentro do modal -->
-                <div class="conteudoModal">  <!-- dentro dessa div aparece tudo no modal -->
-                    <h4 class="tituloProjeto"> CONFLITOS IMERIALISTAS <hr> </h4> 
-                            <a href="https://www.canva.com/design/DAGkUzxVPF0/Ihbpx64S4eMpb7lmJerj-Q/edit?utm_content=DAGkUzxVPF0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> 
-                                <img src="../Humanas/img/attH1.png" class="imagemModal">       <!-- ta chamando a imagem da atividade  -->
-                            </a>
-                        <p> <strong> HABILIDADES E COMPETÊNCIAS: </strong> - </p>
-                        <p> <strong> OBJETIVO: </strong> Fazer os alunos entenderem o contexto do imperialismo, suas causas e consequências, e desenvolverem uma apresentação em grupo sobre um país da época. </p>
-                        <p> <strong> ASSUNTO: </strong> Os conflitos imperialistas no século XIX e a Primeira Guerra Mundial, com foco no imperialismo europeu e suas colônias. </p>
-                        <p> <strong> CRÍTICA: </strong> Gostei bastante da atividade porque ajudou a entender melhor a história e foi legal trabalhar em grupo. Só acho que os grupos podiam ter sido mais equilibrados, mas mesmo assim a atividade foi interessante. </p>
+                <button id="abrirModal">
+                    <!-- todas as informações da tela estão dentro desse botão, que ao clicar vai abrir um modal -->
+                    <img src="../Humanas/img/attH1.png" alt="Imagem"> <!-- ta chamando a imagem da atividade  -->
+                </button>
+            </div>
+
+            <div class="modal" id="modal"> <!-- cria uma divisão só para o que vai dentro do modal -->
+                <div class="conteudoModal"> <!-- dentro dessa div aparece tudo no modal -->
+                    <h4 class="tituloProjeto"> CONFLITOS IMERIALISTAS <hr> </h4>
+                    <a
+                        href="https://www.canva.com/design/DAGkUzxVPF0/Ihbpx64S4eMpb7lmJerj-Q/edit?utm_content=DAGkUzxVPF0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+                        <img src="../Humanas/img/attH1.png" class="imagemModal">
+                        <!-- ta chamando a imagem da atividade  -->
+                    </a>
+                    <p> <strong> HABILIDADES E COMPETÊNCIAS: </strong> - </p>
+                    <p> <strong> OBJETIVO: </strong> Fazer os alunos entenderem o contexto do imperialismo, suas causas
+                        e consequências, e desenvolverem uma apresentação em grupo sobre um país da época. </p>
+                    <p> <strong> ASSUNTO: </strong> Os conflitos imperialistas no século XIX e a Primeira Guerra
+                        Mundial, com foco no imperialismo europeu e suas colônias. </p>
+                    <p> <strong> CRÍTICA: </strong> Gostei bastante da atividade porque ajudou a entender melhor a
+                        história e foi legal trabalhar em grupo. Só acho que os grupos podiam ter sido mais
+                        equilibrados, mas mesmo assim a atividade foi interessante. </p>
                     <button id="fecharModal" class="fecharModal"> Voltar </button> <!-- esse é o botão para sair -->
                 </div>
             </div>
 
-        <div class="card">
-            <h2> CONFLITOS GEOPOLITICOS </h2>  <hr>
-            
-            <button id="abrirModal1">   <!-- todas as informações da tela estão dentro desse botão, que ao clicar vai abrir um modal -->
-                <img src="../Humanas/img/attH2.png" alt="Imagem">       <!-- ta chamando a imagem da atividade  -->
-            </button>
-        </div>
+            <div class="card">
+                <h2> CONFLITOS GEOPOLITICOS </h2>
+                <hr>
 
-        <div class="modal" id="modal1">  <!-- cria uma divisão só para o que vai dentro do modal -->
+                <button id="abrirModal1">
+                    <!-- todas as informações da tela estão dentro desse botão, que ao clicar vai abrir um modal -->
+                    <img src="../Humanas/img/attH2.png" alt="Imagem"> <!-- ta chamando a imagem da atividade  -->
+                </button>
+            </div>
 
-            <div class="conteudoModal1"> <!-- dentro dessa div aparece tudo no modal -->
-                <h4 class="tituloProjeto"> CONFLITOS GEOPOLITICOS: MUNDO MULTIPOLAR </h4>
+            <div class="modal" id="modal1"> <!-- cria uma divisão só para o que vai dentro do modal -->
 
-                    <a href="https://www.canva.com/design/DAGgYzmNmPo/O99wBLq1QuCm5XiQaaPZVw/edit?utm_content=DAGgYzmNmPo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> 
-                        <img src="../Humanas/img/attH2.png" class="imagemModal">       <!-- ta chamando a imagem da atividade  -->
+                <div class="conteudoModal1"> <!-- dentro dessa div aparece tudo no modal -->
+                    <h4 class="tituloProjeto"> CONFLITOS GEOPOLITICOS: MUNDO MULTIPOLAR </h4>
+
+                    <a
+                        href="https://www.canva.com/design/DAGgYzmNmPo/O99wBLq1QuCm5XiQaaPZVw/edit?utm_content=DAGgYzmNmPo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+                        <img src="../Humanas/img/attH2.png" class="imagemModal">
+                        <!-- ta chamando a imagem da atividade  -->
                     </a>
 
-                <p> <strong> HABILIDADES E COMPETÊNCIAS: </strong> - </p>
-                <p> <strong> OBJETIVO: </strong> O objetivo é entender as dinâmicas geopolíticas e as relações entre países no mundo multipolar, analisando o papel histórico de um país, sua posição atual no cenário global e as implicações de seus conflitos geopolíticos. </p>
-                <p> <strong> ASSUNTO: </strong> A atividade trata da análise de um país dentro do contexto do Mundo Multipolar, abordando sua história na Guerra Fria, relações estratégicas no cenário atual, e conflitos geopolíticos recentes em que o país está envolvido. </p>
-                <p> <strong> CRÍTICA: </strong> A atividade é interessante porque envolve uma análise atual e histórica, o que ajuda a compreender melhor o papel do país no cenário mundial. No entanto, poderia haver mais orientações sobre como conectar os conflitos passados com os atuais, para deixar a pesquisa mais focada. </p>
+                    <p> <strong> HABILIDADES E COMPETÊNCIAS: </strong> - </p>
+                    <p> <strong> OBJETIVO: </strong> O objetivo é entender as dinâmicas geopolíticas e as relações entre
+                        países no mundo multipolar, analisando o papel histórico de um país, sua posição atual no
+                        cenário global e as implicações de seus conflitos geopolíticos. </p>
+                    <p> <strong> ASSUNTO: </strong> A atividade trata da análise de um país dentro do contexto do Mundo
+                        Multipolar, abordando sua história na Guerra Fria, relações estratégicas no cenário atual, e
+                        conflitos geopolíticos recentes em que o país está envolvido. </p>
+                    <p> <strong> CRÍTICA: </strong> A atividade é interessante porque envolve uma análise atual e
+                        histórica, o que ajuda a compreender melhor o papel do país no cenário mundial. No entanto,
+                        poderia haver mais orientações sobre como conectar os conflitos passados com os atuais, para
+                        deixar a pesquisa mais focada. </p>
 
-                <button id="fecharModal1" class="fecharModal"> Voltar </button> <!-- esse é o botão para sair -->
+                    <button id="fecharModal1" class="fecharModal"> Voltar </button> <!-- esse é o botão para sair -->
+                </div>
             </div>
         </div>
-        </div>
+
+    <div class="rodape"> 
+    <hr>
+    <h4 class="txtRodape"> Maria Eduarda Mello <br>
+        Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
+        © 2025
+    </h4>
+    </div>
 </section>
 
 <section class="(2)" id="trimestre2">
-    <div class='esperando'>
-        <h3> Nenhuma atividade disponível! </h3> <br> 
-        <img src="../Humanas/img/novosTris1.jpg">
+        <div class='container'>
+            <div class="card"> <!--  é o cardzinho que esta aparecendo na tela  -->
+                <h2> TOTALITARISMO E SEGUNDA GUERRA MUNDIAL </h2>
+                <hr>
+                <button id="abrirModal2">
+                    <!-- todas as informações da tela estão dentro desse botão, que ao clicar vai abrir um modal -->
+                    <img src="../Humanas/img/attH3.png" alt="Imagem"> <!-- ta chamando a imagem da atividade  -->
+                </button>
+            </div>
+
+            <div class="modal" id="modal2"> <!-- cria uma divisão só para o que vai dentro do modal -->
+                <div class="conteudoModal2"> <!-- dentro dessa div aparece tudo no modal -->
+                    <h4 class="tituloProjeto"> TOTALITARISMO E SEGUNDA GUERRA MUNDIAL <hr> </h4>
+                    <a
+                        href="https://www.canva.com/design/DAGsNscBS4U/2QV1sV_wiR5qSweeBlXf-g/edit?utm_content=DAGsNscBS4U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+                        <img src="../Humanas/img/attH3.png" class="imagemModal">
+                        <!-- ta chamando a imagem da atividade  -->
+                    </a>
+                    <p> <strong> HABILIDADES E COMPETÊNCIAS: </strong> C5-H30, C6-H36, H39, H40 </p>
+                    <p> <strong> OBJETIVO: </strong> Compreender as características dos regimes totalitários, em especial o nazifascismo, por meio de análise fílmica.
+                        Objetos de conhecimento: Nazifascismo e regimes totalitários no século XX. </p>
+                    <p> <strong> ASSUNTO: </strong> Elementos do totalitarismo: culto ao líder, controle social, propaganda, perseguição a minorias, militarização e censura. Representações do totalitarismo no cinema e na cultura. </p>
+                    <p> <strong> CRÍTICA: </strong> Eu amei essa atividade, principalmente pelo fato de conectar um conteúdo abordado em sala com filmes ou séries que assistimos no dia a dia. Atividades como essa me ajudam a relacionar
+                        os conteúdos, entendê-los e fixá-los melhor. </p>
+                    <button id="fecharModal2" class="fecharModal"> Voltar </button> <!-- esse é o botão para sair -->
+                </div>
+            </div>
+
+            <div class="card"> <!--  é o cardzinho que esta aparecendo na tela  -->
+                <h2> "THE GEOPOLITICS OF PEACE" DE JEFFREY SACHS </h2>
+                <hr>
+                <button id="abrirModal3">
+                    <!-- todas as informações da tela estão dentro desse botão, que ao clicar vai abrir um modal -->
+                    <img src="../Humanas/img/attH4.png" alt="Imagem"> <!-- ta chamando a imagem da atividade  -->
+                </button>
+            </div>
+
+            <div class="modal" id="modal3"> <!-- cria uma divisão só para o que vai dentro do modal -->
+                <div class="conteudoModal3"> <!-- dentro dessa div aparece tudo no modal -->
+                    <h4 class="tituloProjeto"> TOTALITARISMO E SEGUNDA GUERRA MUNDIAL <hr> </h4>
+                    <a
+                        href="https://docs.google.com/document/d/1wu60S6ixtUpx3krAZ7b_BKp2ir0VpZ_0YRvGTkDHaWI/edit?usp=sharing">
+                        <img src="../Humanas/img/attH4.png" class="imagemModal">
+                        <!-- ta chamando a imagem da atividade  -->
+                    </a>
+                    <p> <strong> HABILIDADES E COMPETÊNCIAS: </strong> - </p>
+                    <p> <strong> OBJETIVO: </strong> Assistir ao vídeo do economista e conselheiro de estado Jeffrey Sachs, a ser visto em dois períodos, sobre o estilo de política externa dos EUA unido ao questionário a ser respondido em grupos de até 4 pessoas. </p>
+                    <p> <strong> ASSUNTO: </strong> Jeffrey Sachs critica a política externa estadunidense por seu excessivo foco em intervenções militares e excepcionalismo americano, defendendo uma abordagem mais multilateral e focada no desenvolvimento sustentável. </p>
+                    <p> <strong> CRÍTICA: </strong> Apesar de ser uma atividade simples de questionário, foi uma das atividades que mais gostei de fazer, principalmente por que o vídeo foi interessante e me prendeu bastante, o conteúdo foi bem explicado e a atividade foi simples e conteudista. </p>
+                    <button id="fecharModal3" class="fecharModal"> Voltar </button> <!-- esse é o botão para sair -->
+                </div>
+            </div>
+
+            <div class="card"> <!--  é o cardzinho que esta aparecendo na tela  -->
+                <h2>REVOLUÇÃO RUSSA </h2>
+                <hr>
+                <button id="abrirModal4">
+                    <!-- todas as informações da tela estão dentro desse botão, que ao clicar vai abrir um modal -->
+                    <img src="../Humanas/img/attH5.png" alt="Imagem"> <!-- ta chamando a imagem da atividade  -->
+                </button>
+            </div>
+
+            <div class="modal" id="modal4"> <!-- cria uma divisão só para o que vai dentro do modal -->
+                <div class="conteudoModal4"> <!-- dentro dessa div aparece tudo no modal -->
+                    <h4 class="tituloProjeto"> REVOLUÇÃO RUSSA <hr> </h4>
+                    <a
+                        href="https://www.canva.com/design/DAGoZdauqv4/IVlw-IYsPB9qsI8amxY4YQ/edit?utm_content=DAGoZdauqv4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+                        <img src="../Humanas/img/attH5.png" class="imagemModal">
+                        <!-- ta chamando a imagem da atividade  -->
+                    </a>
+                    <p> <strong> HABILIDADES E COMPETÊNCIAS: </strong> C2: H10, C4: H22, H26, H27 </p>
+                    <p> <strong> OBJETIVO: </strong>  Os estudantes deverão procurar um cartaz de propaganda soviética, produzido entre os anos de 1914-1945. Criar uma arte no canva com o cartaz centralizado e desenvolver uma interpretação da arte escolhida. </p>
+                    <p> <strong> ASSUNTO: </strong> A Revolução Russa de 1917 e suas implicações políticas e sociais. </p>
+                    <p> <strong> CRÍTICA: </strong> Gostei bastante da atividade, pois me permitiu explorar a história de uma forma criativa e visual. </p>
+                    <button id="fecharModal4" class="fecharModal"> Voltar </button> <!-- esse é o botão para sair -->
+                </div>
+            </div>
+        </div>
+
+    <div class="rodape"> 
+    <hr>
+    <h4 class="txtRodape"> Maria Eduarda Mello <br>
+        Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
+        © 2025
+    </h4>
     </div>
 </section>
 
 <section class="(3)" id="trimestre3">
     <div class='esperando'>
-        <h3> Nenhuma atividade disponível! </h3> <br> 
-        <img src="../Humanas/img/novosTris.jpg">
+        <h3> Nenhuma atividade disponível! </h3> <br>
+        <img src="../Humanas/img/novosTris1.jpg">
     </div>
+
+<div class="rodape"> 
+<hr>
+<h4 class="txtRodape"> Maria Eduarda Mello <br>
+    Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
+    © 2025
+</h4>
+</div>
+
 </section>
 
     <script src="scriptH.js"> </script> <!-- link do JavaScript -->
 </body>
+
 </html>

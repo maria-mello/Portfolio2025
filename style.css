@@ -27,7 +27,7 @@ body {
 h1{
     font-family: "Ranchers", sans-serif;
     font-size: 1300%;
-    margin: -5%;
+    margin: -1%;
     margin-left: -8%;
     text-transform: uppercase;
     position:absolute;
@@ -55,9 +55,33 @@ header {
     font-size: 115%;
 }
 
-.header, a{
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 99%;
+  margin-left: -0.5%;
+  z-index: 1000;
+  padding: 1%;
+  text-align: center;
+  background-color: #80331D;
+  font-size: 115%;
+  color: #80331D;
+  border: 1px solid white;
+}
+
+header a {
     color: #F5EBDC;
     text-decoration: none;
+    display: flex;
 }
 
 .nav{
@@ -75,16 +99,15 @@ header {
     text-align: center;
     font-size: 100%;
     margin-bottom:5%;
-    
 }
 
 .perfil {
     position: absolute; 
     width: 15%;
     border-radius: 5%;
-    right: 5%;
+    right: 1%;
     top: 2%;
-    
+    width: 20%;
 }
 
 .wallpaper, img {
@@ -92,7 +115,7 @@ header {
     margin-top: 60px;
     width: 100%;
     padding-top: 1%;
-    border-radius: 40px;
+    border-radius: 80px;
 }
 
 p{
@@ -113,7 +136,6 @@ p{
     text-align: justify;
     padding: 1%;
     width: 55%;
-
 }
 
 .detalhes{
@@ -133,7 +155,7 @@ p{
 
 .botao{
     margin-top: 3%;
-    margin-left: 45%;
+    margin-left: 40%;
     border: 2px solid #F5EBDC;
     border-radius: 7.8%;
     padding: 1%;
@@ -220,7 +242,7 @@ section#sobreMim.sobreMim{
     transform: scale(1.0) translateY(-5px); /* aumenta 10% e sobre 5px */
 }
 
-.ads {
+.ads{
     font-family: "Afacad Flux", sans-serif;
     font-size: 50%;
     font-weight: bold;
@@ -320,8 +342,9 @@ h5{
     margin: 5%;
     margin-top: -2%;
     width: 25%;
-    border-radius: 10%;
+    border-radius: 50px;
     transition: background-color 0.3s ease;
+    
 }
 
 .ppeC:hover{

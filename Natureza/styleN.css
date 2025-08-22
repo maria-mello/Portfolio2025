@@ -136,8 +136,8 @@ header {
   width: 100%;  
   flex-wrap: wrap;
 }
-  
-.conteudoModal, .conteudoModal1, .conteudoModal2, .conteudoModal3{ /* modal das atividades  */
+
+.conteudoModal, .conteudoModal1, .conteudoModal2, .conteudoModal3, .conteudoModal4, .conteudoModal5, .conteudoModal6{ /* modal das atividades  */
   background-color: #ffffff;
   padding: 5%;
   width: 50%;
@@ -146,7 +146,7 @@ header {
   box-shadow: 0px 2px 5px rgba(216, 72, 72, 0.288);
 }
 
-.modal, .modal1, .modal2, .modal3 { /* modal das atividades  */
+.modal, .modal1, .modal2, .modal3, .modal4, .modal5, .modal6 { /* modal das atividades  */
   display: none;
   position: fixed;
   top: 0;
@@ -160,7 +160,7 @@ header {
   z-index: 9999;
 }
 
-.conteudoModal, .conteudoModal1, .conteudoModal2, .conteudoModal3 {
+.conteudoModal, .conteudoModal1, .conteudoModal2, .conteudoModal3, .conteudoModal4, .conteudoModal5, .conteudoModal6 {
   max-height: 70vh; /* altura máxima do modal: 80% da altura da janela */
   overflow-y: auto; /* ativa o scroll vertical se o conteúdo ultrapassar */
   padding: 20px;
@@ -204,6 +204,33 @@ header {
   border-radius: 4px;
 }
 
+.conteudoModal4::-webkit-scrollbar {
+  width: 8px;
+}
+
+.conteudoModal4::-webkit-scrollbar-thumb {
+  background: #310101;
+  border-radius: 4px;
+}
+
+.conteudoModal5::-webkit-scrollbar {
+  width: 8px;
+}
+
+.conteudoModal5::-webkit-scrollbar-thumb {
+  background: #310101;
+  border-radius: 4px;
+}
+
+.conteudoModal6::-webkit-scrollbar {
+  width: 8px;
+}
+
+.conteudoModal6::-webkit-scrollbar-thumb {
+  background: #310101;
+  border-radius: 4px;
+}
+
 .imagemModal{
   display: flex;
   flex-direction: column;
@@ -217,7 +244,7 @@ header {
 
 h4{
   font-family: "Ranchers", sans-serif;
-  font-size: xX-large ;
+  font-size: xX-large;
   text-align: center;
 }
 
@@ -311,3 +338,20 @@ nav a {
   background-color: #f8f1df; /* Nova cor de fundo ao passar o mouse */
 }
 
+.txtRodape {
+    position: relative;
+    bottom: 0;
+    width: 95%;
+    height: 5%;
+    background-color: #80331D;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 3%;
+    font-size: 150%;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

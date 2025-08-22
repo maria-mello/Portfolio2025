@@ -303,3 +303,21 @@ section.ativo{
   flex-direction: column;
   margin: 5%;
 }
+
+.txtRodape {
+    position: relative;
+    bottom: 0;
+    width: 95%;
+    height: 5%;
+    background-color: #80331D;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 3%;
+    font-size: 150%;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
