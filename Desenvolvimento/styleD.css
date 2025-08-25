@@ -221,7 +221,7 @@ button{
   font-family: "Afacad Flux", sans-serif;
   font-size: large;
 }
-/* FIM DOS MODÁIS  */
+/* FIM DOS MODAIS  */
 
 hr{ 
   width: 90%;
@@ -320,4 +320,57 @@ section.ativo{
 a{
     text-decoration: none;
     color: white;
+}
+
+#materia1{
+  padding: 2%;
+}
+
+#materia2{
+    padding: 2%;
+}
+
+#materia3{
+  padding: 2%;
+}
+
+.opcao01 {
+  display: none; /* escondido por padrão */
+  justify-content: center;
+  margin-top: -80px;
+}
+
+.opcao01.ativo {
+  display: flex; /* só aparece quando o JS ativa */
+}
+
+.opcao01 .navTris {
+  display: flex;
+  gap: 3%; /* espaço entre os botões */
+}
+
+.opcao01 a {
+  display: inline-block;
+  padding: 10px 20px;
+  white-space: nowrap;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  background-color: #80331D;
+  border: 1px solid white;
+  transition: 0.5s;
+}
+
+.opcao01 a:hover {
+  background-color: #f8f1df;
+  color: #80331D;
+}
+
+.cards .card {
+  display: none; /* escondidos por padrão */
+  margin: 10px;
+  padding: 10px;
+  background: #fff2;
+  border-radius: 10px;
 }

@@ -31,21 +31,50 @@
             <a href="../Humanas/indexH.html"> Humanas </a>
         </div>
     </header>
+                <h1> Técnico </h1>
 
-<div class="conteudo">
-    <h1> Técnico </h1>
-    <h2> MODELAGEM DE SISTEMAS </h2>
-</div>
-  
-<div class="navTris">   <!-- Criando uma nav bar com os requisitos do portfólio solicitados  -->
-    <a onclick="mostrarTrimestre(1)" id="tris1"> 1º Trimestre</a>
-    <a onclick="mostrarTrimestre(2)"id="tris2"> 2º Trimestre</a>
-    <a onclick="mostrarTrimestre(3)" id="tris3"> 3º Trimestre</a>
-</div>
+    <div class="navTris">   <!-- CRIANDO UMA 'NAVBAR' PARA AS MATÉRIAS DO TÉCNICO -->
+        <a onclick="mostrarOpcaoMateria(1)" id="materia1"> MODELAGEM DE SISTEMAS</a>
+        <a onclick="mostrarOpcaoMateria(2)" id="materia2"> BANCO DE DADOS</a>
+        <a onclick="mostrarOpcaoMateria(3)" id="materia3"> INTERNET DAS COISAS (IOT)</a>
+    </div>
 
+    <!-- TRIMESTRES MODELAGEM DE SISTEMAS -->
+    <div class="opcao01" id="opcao1">
+        <div class="conteudo">
+            <div class="navTris">
+            <a onclick="mostrarTrimestre(1)" class="opcao1">1º Trimestre</a>
+            <a onclick="mostrarTrimestre(2)" class="opcao2">2º Trimestre</a>
+            <a onclick="mostrarTrimestre(3)" class="opcao3">3º Trimestre</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- TRIMESTRES BANCO DE DADOS -->
+    <div class="opcao01" id="opcao2">
+        <div class="conteudo">
+            <div class="navTris">
+            <a onclick="mostrarTrimestre(4)" class="opcao1">1º Trimestre</a>
+            <a onclick="mostrarTrimestre(5)" class="opcao2">2º Trimestre</a>
+            <a onclick="mostrarTrimestre(6)" class="opcao3">3º Trimestre</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- TRIMESTRES IOT -->
+    <div class="opcao01" id="opcao3">
+        <div class="conteudo">
+            <div class="navTris">
+            <a onclick="mostrarTrimestre(7)" class="opcao1">1º Trimestre</a>
+            <a onclick="mostrarTrimestre(8)" class="opcao2">2º Trimestre</a>
+            <a onclick="mostrarTrimestre(9)" class="opcao3">3º Trimestre</a>
+            </div>
+        </div>
+    </div>
 
 <section class="(1)" id="trimestre1"> 
     <div class="container">
+        
         <div class="card">   <!--  é o cardzinho que esta aparecendo na tela  -->
         <h2> HAMBURGUERIA </h2>  <hr>
             <button id="abrirModal">   <!-- todas as informações da tela estão dentro desse botão, que ao clicar vai abrir um modal -->
@@ -101,6 +130,39 @@
 </section>
     
 <section class="(2)" id="trimestre2">
+        <div class="container">
+        
+        <div class="card">   <!--  é o cardzinho que esta aparecendo na tela  -->
+        <h2> LIGHT POINT (S.A) </h2>  <hr>
+            <button id="abrirModal2">   <!-- todas as informações da tela estão dentro desse botão, que ao clicar vai abrir um modal -->
+                <img src="../Desenvolvimento/img/attD3.png" alt="Imagem">       <!-- ta chamando a imagem da atividade  -->
+                </button>
+        </div>
+
+            <div class="modal" id="modal2">   <!-- cria uma divisão só para o que vai dentro do modal -->
+                <div class="conteudoModal2">  <!-- dentro dessa div aparece tudo no modal -->
+                    <h4 class="tituloProjeto"> LIGHT POINT (S.A)<hr> </h4>
+                    <a href="https://www.figma.com/proto/T5jprqOxk7hMhNxDw2uFv9/FIGMA-LIGHTPOINT?node-id=1-4&starting-point-node-id=1%3A4&t=SLh8YSBrmP7JVKRS-1">
+                        <img src="../Desenvolvimento/img/attD3.png" class="imagemModal">       <!-- ta chamando a imagem da atividade  -->
+                    </a>
+                    <p> <strong> HABILIDADES E COMPETÊNCIAS: </strong> H1 a H7 </p>
+                    <p> <strong> OBJETIVO: </strong> Ensinar a importância e como documentar requisitos não funcionais em sistemas. </p>
+                        <p> <strong> ASSUNTO: </strong> Mostra como identificar, classificar e escrever requisitos que definem como o sistema deve funcionar (ex: desempenho, segurança, usabilidade), com aplicação prática em um sistema que deveríamos criar de uma hamburgueria.</p>
+                        <p> <strong> CRÍTICA: </strong> Esse conteúdo destaca que um sistema não funciona sozinho, e mesmo se funcionar, ele precisa funcionar bem, com qualidade e boa experiência para o usuário. A documentação dos requisitos não funcionais ajuda a garantir isso. </p>
+                    <button id="fecharModal2" class="fecharModal"> Voltar </button> <!-- esse é o botão para sair -->
+                </div>
+            </div>
+        </div>
+    <div class="rodape"> 
+    <hr>
+    <h4 class="txtRodape"> Maria Eduarda Mello <br>
+        Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
+        © 2025
+    </h4>
+    </div>
+</section>
+    
+<section class="(3)" id="trimestre3">
     <div class='esperando'>
         <h3> Nenhuma atividade disponível! </h3> <br> 
         <img src="../Desenvolvimento/img/novosTris.jpg">
@@ -114,11 +176,103 @@
     </h4>
     </div>
 </section>
-    
-<section class="(3)" id="trimestre3">
+
+<section class="(4)" id="trimestre4"> 
     <div class='esperando'>
         <h3> Nenhuma atividade disponível! </h3> <br> 
+        <img src="../Desenvolvimento/img/novosTris4.jpg">
+    </div>
+    <div class="rodape"> 
+    <hr>
+    <h4 class="txtRodape"> Maria Eduarda Mello <br>
+        Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
+        © 2025
+    </h4>
+    </div>
+</section>
+    
+<section class="(5)" id="trimestre5">
+    <div class="container">
+    
+    <div class="card">   <!--  é o cardzinho que esta aparecendo na tela  -->
+    <h2> MODELAGEM CONCEITUAL </h2>  <hr>
+        <button id="abrirModal3">   <!-- todas as informações da tela estão dentro desse botão, que ao clicar vai abrir um modal -->
+            <img src="../Desenvolvimento/img/attD4.png" alt="Imagem">       <!-- ta chamando a imagem da atividade  -->
+            </button>
+    </div>
+
+        <div class="modal" id="modal3">   <!-- cria uma divisão só para o que vai dentro do modal -->
+            <div class="conteudoModal3">  <!-- dentro dessa div aparece tudo no modal -->
+                <h4 class="tituloProjeto"> MODELAGEM CONCEITUAL <hr> </h4>
+                <a href="https://www.canva.com/design/DAGw0E_uMD8/Ji-hnTiUOwFsHDQX7GwdsQ/edit?utm_content=DAGw0E_uMD8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+                    <img src="../Desenvolvimento/img/attD4.png" class="imagemModal">       <!-- ta chamando a imagem da atividade  -->
+                </a>
+                <p> <strong> HABILIDADES E COMPETÊNCIAS: </strong> H1 a H7 </p>
+                <p> <strong> OBJETIVO: </strong> Compreender e aplicar modelos conceituais para representar informações e relações de um sistema de forma clara e organizada, permitindo a análise e documentação antes da implementação. </p>
+                    <p> <strong> ASSUNTO: </strong> Diagramas de entidade-relacionamento (DER) e diagramas UML, identificação de entidades, atributos, relacionamentos e regras de negócio, mostrando como estruturar os dados e processos de maneira eficiente para apoiar o desenvolvimento de sistemas e bancos de dados.</p>
+                    <p> <strong> CRÍTICA: </strong> Eu até que gostei bastante dessa matéria, a atividade foi bem explicada e em qualquer caso de dúvida a professora estava lá para nos auxiliar.  </p>
+                <button id="fecharModal3" class="fecharModal"> Voltar </button> <!-- esse é o botão para sair -->
+            </div>
+        </div>
+    </div>
+    <div class="rodape"> 
+        <hr>
+    <h4 class="txtRodape"> Maria Eduarda Mello <br>
+        Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
+        © 2025
+    </h4>
+    </div>
+</section>
+    
+<section class="(6)" id="trimestre6">
+    <div class='esperando'>
+        <h3> Nenhuma atividade disponível! </h3> <br> 
+        <img src="../Desenvolvimento/img/novosTris5.jpg">
+    </div>
+
+    <div class="rodape"> 
+    <hr>
+    <h4 class="txtRodape"> Maria Eduarda Mello <br>
+        Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
+        © 2025
+    </h4>
+    </div>
+</section>
+
+<section class="(7)" id="trimestre7"> 
+    <div class='esperando'>
+        <h3> Nenhuma atividade disponível! </h3> <br> 
+        <img src="../Desenvolvimento/img/novosTris2.jpg">
+    </div>
+
+    <div class="rodape"> 
+    <hr>
+    <h4 class="txtRodape"> Maria Eduarda Mello <br>
+        Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
+        © 2025
+    </h4>
+    </div>
+</section>
+    
+<section class="(8)" id="trimestre8">
+        <div class='esperando'>
+        <h3> Nenhuma atividade disponível! </h3> <br> 
         <img src="../Desenvolvimento/img/novosTris1.jpg">
+    </div>
+
+    <div class="rodape"> 
+    <hr>
+    <h4 class="txtRodape"> Maria Eduarda Mello <br>
+        Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
+        © 2025
+    </h4>
+    </div>
+</section>
+    
+<section class="(9)" id="trimestre9">
+    <div class='esperando'>
+        <h3> Nenhuma atividade disponível! </h3> <br> 
+        <img src="../Desenvolvimento/img/novosTris.jpg">
     </div>
 
     <div class="rodape"> 

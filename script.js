@@ -14,4 +14,3 @@ document.querySelectorAll('.nav a').forEach(link => { // seleciona todos os link
         }
     });
 });
-
