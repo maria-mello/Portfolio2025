@@ -105,8 +105,9 @@ header a {
     position: absolute; 
     width: 15%;
     border-radius: 5%;
-    right: 1%;
-    top: 2%;
+    margin-right: -5%;
+    right: 2%;
+    top: 1.5%;
     width: 20%;
 }
 
