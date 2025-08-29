@@ -3,7 +3,7 @@ _<h1 align='center'> Portfolio </h1>_
 Este projeto foi feito com JS, HTML e CSS básico e toda a paleta de cores e icons usados foram definidos préviamente em um canva usado como wireframe. </h4>
 
 _***Abaixo está um print da tela inicial:***_ 
-<img width="1350" height="631" alt="poprt" src="https://github.com/user-attachments/assets/a4127cd2-ace4-46dc-99c7-e517be0200eb" />
+<img width="1343" height="635" alt="image" src="https://github.com/user-attachments/assets/1fab967e-ea10-4d54-814d-9dca81429694" >
 
 ***Por: Maria Mello***
 🌻
