@@ -128,7 +128,7 @@ header {
   flex-wrap: wrap;
 }
 
-.conteudoModal, .conteudoModal1, .conteudoModal2, .conteudoModal3 { /* modal das atividades  */
+.conteudoModal, .conteudoModal1, .conteudoModal2, .conteudoModal3, .conteudoModal4 { /* modal das atividades  */
   background-color: #ffffff;
   padding: 5%;
   width: 50%;
@@ -137,7 +137,7 @@ header {
   box-shadow: 0px 2px 5px rgba(216, 72, 72, 0.288);
 }
 
-.modal, .modal1, .modal2, .modal3 { /* modal das atividades  */
+.modal, .modal1, .modal2, .modal3, .modal4 { /* modal das atividades  */
   display: none;
   position: fixed;
   top: 0;
@@ -151,7 +151,7 @@ header {
   z-index: 9999;
 }
 
-.conteudoModal, .conteudoModal1, .conteudoModal2, .conteudoModal3 {
+.conteudoModal, .conteudoModal1, .conteudoModal2, .conteudoModal3, .conteudoModal4 {
   max-height: 70vh; /* altura máxima do modal: 80% da altura da janela */
   overflow-y: auto; /* ativa o scroll vertical se o conteúdo ultrapassar */
   padding: 20px;
@@ -194,6 +194,16 @@ header {
   background: #310101;
   border-radius: 4px;
 }
+
+.conteudoModal4::-webkit-scrollbar {
+  width: 8px;
+}
+
+.conteudoModal4::-webkit-scrollbar-thumb {
+  background: #310101;
+  border-radius: 4px;
+}
+
 
 .imagemModal{
   display: flex;
