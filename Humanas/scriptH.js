@@ -106,3 +106,23 @@ modal4.addEventListener('click', (e) => {
         modal4.style.display = 'none';
     }
 });
+
+// MODAL DA ATIVIDADE 04 (TERCEIRO TRIMESTRE)
+const modal5 = document.getElementById('modal5'); // chama pelo id a div do modal 
+const abrirModal5 = document.getElementById('abrirModal5'); // chama pelo id do html a class do botão para abrir
+const fecharModal5 = document.getElementById('fecharModal5'); // chama pelo id do html a class do botão para fechar
+
+abrirModal5.addEventListener('click', () =>{ // adiciona um evento  ao clicar no botão
+    modal5.style.display = 'flex'; // e nesse evento o modal abre o css que foi criado 
+});
+
+fecharModal5.addEventListener('click', () =>{ // adiciona um evento ao clicar no botão
+    modal5.style.display = 'none'; // nesse evento o 'display: flex;' que tinha sido incluso é trocado de volta pelo 'display: none;'
+});
+
+modal5.addEventListener('click', (e) => {
+    if (e.target === modal5) { // Verifica se o clique foi fora da área de conteúdo
+        modal5.style.display = 'none';
+    }
+});
+

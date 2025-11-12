@@ -145,3 +145,60 @@ modal6.addEventListener('click', (e) => {
         modal6.style.display = 'none';
     }
 });
+
+// MODAL DA ATT8 (TERCEIRO TRIMESTRE)
+const modal7 = document.getElementById('modal7'); // chama pelo id do html a div do modal 
+const abrirModal7 = document.getElementById('abrirModal7'); // chama pelo id do html a class do botão para abrir
+const fecharModal7 = document.getElementById('fecharModal7'); // chama pelo id do html a class do botão para fechar
+
+abrirModal7.addEventListener('click', () =>{ // adiciona um evento  ao clicar no botão
+    modal7.style.display = 'flex'; // e nesse evento o modal abre o css que foi criado para ele e o 'display: none;' é substituido pelo 'flex;'
+});
+
+fecharModal7.addEventListener('click', () =>{ // adiciona um evento ao clicar no botão
+    modal7.style.display = 'none'; // nesse evento o 'display: flex;' que tinha sido incluso é trocado de volta pelo 'display: none;'
+}); 
+ 
+modal7.addEventListener('click', (e) => {
+    if (e.target === modal7) { // Verifica se o clique foi fora da área de conteúdo
+        modal7.style.display = 'none';
+    }
+});
+
+// MODAL DA ATT9 (TERCEIRO TRIMESTRE)
+const modal8 = document.getElementById('modal8'); // chama pelo id do html a div do modal 
+const abrirModal8 = document.getElementById('abrirModal8'); // chama pelo id do html a class do botão para abrir
+const fecharModal8 = document.getElementById('fecharModal8'); // chama pelo id do html a class do botão para fechar
+
+abrirModal8.addEventListener('click', () =>{ // adiciona um evento  ao clicar no botão
+    modal8.style.display = 'flex'; // e nesse evento o modal abre o css que foi criado para ele e o 'display: none;' é substituido pelo 'flex;'
+});
+
+fecharModal8.addEventListener('click', () =>{ // adiciona um evento ao clicar no botão
+    modal8.style.display = 'none'; // nesse evento o 'display: flex;' que tinha sido incluso é trocado de volta pelo 'display: none;'
+}); 
+ 
+modal8.addEventListener('click', (e) => {
+    if (e.target === modal8) { // Verifica se o clique foi fora da área de conteúdo
+        modal8.style.display = 'none';
+    }
+});
+
+// MODAL DA ATT 10 (TERCEIRO TRIMESTRE)
+const modal9 = document.getElementById('modal9'); // chama pelo id do html a div do modal 
+const abrirModal9 = document.getElementById('abrirModal9'); // chama pelo id do html a class do botão para abrir
+const fecharModal9 = document.getElementById('fecharModal9'); // chama pelo id do html a class do botão para fechar
+
+abrirModal9.addEventListener('click', () =>{ // adiciona um evento  ao clicar no botão
+    modal9.style.display = 'flex'; // e nesse evento o modal abre o css que foi criado para ele e o 'display: none;' é substituido pelo 'flex;'
+});
+
+fecharModal9.addEventListener('click', () =>{ // adiciona um evento ao clicar no botão
+    modal9.style.display = 'none'; // nesse evento o 'display: flex;' que tinha sido incluso é trocado de volta pelo 'display: none;'
+}); 
+ 
+modal9.addEventListener('click', (e) => {
+    if (e.target === modal9) { // Verifica se o clique foi fora da área de conteúdo
+        modal9.style.display = 'none';
+    }
+});

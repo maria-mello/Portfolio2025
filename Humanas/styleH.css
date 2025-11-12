@@ -137,7 +137,7 @@ header {
   flex-wrap: wrap;
 }
 
-.conteudoModal, .conteudoModal1, .conteudoModal2, .conteudoModal3, .conteudoModal4 { /* modal das atividades  */
+.conteudoModal { /* modal das atividades  */
   background-color: #ffffff;
   padding: 5%;
   width: 50%;
