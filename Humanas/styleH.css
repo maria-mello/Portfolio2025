@@ -146,7 +146,7 @@ header {
   box-shadow: 0px 2px 5px rgba(216, 72, 72, 0.288);
 }
 
-.modal, .modal1, .modal2, .modal3, .modal4{ /* modal das atividades  */
+.modal, .modal1, .modal2, .modal3, .modal4, .modal5, .modal6, .modal7{ /* modal das atividades  */
   display: none;
   position: fixed;
   top: 0;
@@ -160,7 +160,7 @@ header {
   z-index: 9999;
 }
 
-.conteudoModal, .conteudoModal1, .conteudoModal2, .conteudoModal3, .conteudoModal4{
+.conteudoModal, .conteudoModal1, .conteudoModal2, .conteudoModal3, .conteudoModal4, .conteudoModal5, .conteudoModal6, .conteudoModal7{
   max-height: 70vh; /* altura máxima do modal: 80% da altura da janela */
   overflow-y: auto; /* ativa o scroll vertical se o conteúdo ultrapassar */
   padding: 20px;
@@ -209,6 +209,33 @@ header {
 }
 
 .conteudoModal4::-webkit-scrollbar-thumb {
+  background: #310101;
+  border-radius: 4px;
+}
+
+.conteudoModal5::-webkit-scrollbar {
+  width: 8px;
+}
+
+.conteudoModal5::-webkit-scrollbar-thumb {
+  background: #310101;
+  border-radius: 4px;
+}
+
+.conteudoModal6::-webkit-scrollbar {
+  width: 8px;
+}
+
+.conteudoModal6::-webkit-scrollbar-thumb {
+  background: #310101;
+  border-radius: 4px;
+}
+
+.conteudoModal7::-webkit-scrollbar {
+  width: 8px;
+}
+
+.conteudoModal7::-webkit-scrollbar-thumb {
   background: #310101;
   border-radius: 4px;
 }
@@ -311,16 +338,17 @@ section.ativo{
   background-color: #f8f1df; /* Nova cor de fundo ao passar o mouse */
 }
 
-.txtRodape {
+.rodape H4 {
     position: relative;
     bottom: 0;
     width: 95%;
     height: 5%;
+    font-weight: 100;
     background-color: #80331D;
+    padding: 2%;
     text-align: center;
-    margin-top: 0%;
     margin-bottom: 3%;
-    font-size: 150%;
+    font-size: 120%;
     font-family: "Afacad Flux", sans-serif;
 }
 

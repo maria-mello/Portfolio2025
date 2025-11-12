@@ -1,5 +1,5 @@
 body {
-    background-color: #80331D;
+    background-color: #5d0101;
     color: #F5EBDC;
     font-family: "Afacad Flux", sans-serif;
     width: 100%; /* define a largura áxima para o site */
@@ -9,6 +9,33 @@ body {
     align-items: center;
 }
 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 99%;
+  margin-left: -0.5%;
+  z-index: 1000;
+  padding: 1%;
+  text-align: center;
+  background-color: #5d0101;
+  font-size: 115%;
+  color: #5d0101;
+  border: 1px solid white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 1%;
+    
+}
 .ranchers-regular {
     font-family: "Ranchers", sans-serif;
     font-weight: 400;
@@ -40,42 +67,9 @@ h1{
     margin: 0 auto; /* centraliza os elementos */
 }
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    left: 0;
-    width: 98%;
-    z-index: 1000;   
-
-    padding: 1%;
-    text-align: center;
-    background-color: #80331D;
-    font-size: 115%;
-}
-
 a{
     text-decoration: none;
     color: white;
-}
-
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 99%;
-  margin-left: -0.5%;
-  z-index: 1000;
-  padding: 1%;
-  text-align: center;
-  background-color: #80331D;
-  font-size: 115%;
-  color: #80331D;
-  border: 1px solid white;
 }
 
 header a {
@@ -138,6 +132,13 @@ p{
     text-align: justify;
     padding: 1%;
     width: 55%;
+}
+
+.descricao1{
+    font-weight: 100;
+    font-family: "Afacad Flux", sans-serif;
+    font-size: small;
+    
 }
 
 .detalhes{
@@ -248,7 +249,7 @@ section#sobreMim.sobreMim{
     font-family: "Afacad Flux", sans-serif;
     font-size: 50%;
     font-weight: bold;
-    color: #80331D;
+    color: #5d0101;
 }
 
 .icon{
@@ -266,21 +267,22 @@ section#sobreMim.sobreMim{
     margin-top: -10%;
 }
 
-.rodape {
+.rodape H4 {
     position: relative;
     bottom: 0;
     width: 95%;
     height: 5%;
-    background-color: #80331D;
+    font-weight: 100;
+    background-color: #5d0101;
     padding: 2%;
     text-align: center;
     margin-bottom: 3%;
-    font-size: 150%;
+    font-size: 120%;
     font-family: "Afacad Flux", sans-serif;
 }
 
 h5{
-    color: #80331D;
+    color: #5d0101;
 }
 
 .certificados-container {

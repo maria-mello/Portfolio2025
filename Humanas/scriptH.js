@@ -126,3 +126,40 @@ modal5.addEventListener('click', (e) => {
     }
 });
 
+// MODAL DA ATIVIDADE 05 (TERCEIRO TRIMESTRE)
+const modal6 = document.getElementById('modal6'); // chama pelo id a div do modal 
+const abrirModal6 = document.getElementById('abrirModal6'); // chama pelo id do html a class do botão para abrir
+const fecharModal6 = document.getElementById('fecharModal6'); // chama pelo id do html a class do botão para fechar
+
+abrirModal6.addEventListener('click', () =>{ // adiciona um evento  ao clicar no botão
+    modal6.style.display = 'flex'; // e nesse evento o modal abre o css que foi criado 
+});
+
+fecharModal6.addEventListener('click', () =>{ // adiciona um evento ao clicar no botão
+    modal6.style.display = 'none'; // nesse evento o 'display: flex;' que tinha sido incluso é trocado de volta pelo 'display: none;'
+});
+
+modal6.addEventListener('click', (e) => {
+    if (e.target === modal6) { // Verifica se o clique foi fora da área de conteúdo
+        modal6.style.display = 'none';
+    }
+});
+
+// MODAL DA ATIVIDADE 06 (TERCEIRO TRIMESTRE)
+const modal7 = document.getElementById('modal7'); // chama pelo id a div do modal 
+const abrirModal7 = document.getElementById('abrirModal7'); // chama pelo id do html a class do botão para abrir
+const fecharModal7 = document.getElementById('fecharModal7'); // chama pelo id do html a class do botão para fechar
+
+abrirModal7.addEventListener('click', () =>{ // adiciona um evento  ao clicar no botão
+    modal7.style.display = 'flex'; // e nesse evento o modal abre o css que foi criado 
+});
+
+fecharModal7.addEventListener('click', () =>{ // adiciona um evento ao clicar no botão
+    modal7.style.display = 'none'; // nesse evento o 'display: flex;' que tinha sido incluso é trocado de volta pelo 'display: none;'
+});
+
+modal7.addEventListener('click', (e) => {
+    if (e.target === modal7) { // Verifica se o clique foi fora da área de conteúdo
+        modal7.style.display = 'none';
+    }
+});
