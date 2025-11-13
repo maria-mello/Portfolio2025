@@ -1,5 +1,5 @@
 body {
-  background-color: #80331D;
+  background-color: #5d0101;
   font-family: "Ranchers", sans-serif;
   color: #F5EBDC;
   font-family: "Afacad Flux", sans-serif;
@@ -29,7 +29,8 @@ h1{
   font-size: 800%;
   display: flex;
   justify-content: center;
-  top: -10%;
+  margin-top: 8%;
+
 }
 
 h2{
@@ -50,25 +51,48 @@ header {
   z-index: 1000;
   padding: 1%;
   text-align: center;
-  background-color: #80331D;
+  background-color: #5d0101;
   font-size: 115%;
-  color: #80331D;
+  color: #5d0101;
   border: 1px solid white;
 }
 
 .header, a{
-  background-color: #80331D;
+  background-color: #5d0101;
   text-decoration: none;
+}
+
+.nav-nome{
+  width: 50%;
+  margin-left: 3%;
+  font-size: 140%;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 90%;
+  gap: 5%;
+  margin-right: 3%;
 }
 
 .nav{
   display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
   flex-direction: row;
-  gap: 10px;
-  justify-content: flex-end;
-  align-items: baseline;
-  text-decoration: none;
-  background-color: 80331D;
+  margin: 1%;
+  gap: 5%;
+  font-size: 125%;
+  color: rgba(48, 1, 1, 0.842);
+  transition: transform 0.3s ease-in-out, color 0.4s ease;
+}
+
+.nav:hover{
+  transform: scale(1.0) translateY(-3px); /* aumenta 10% e sobre 5px */
+  color: #F5EBDC;
 }
 
 .navTris, a{
@@ -77,8 +101,8 @@ header {
 
 .navTris{ 
   text-decoration: none;
-  background-color: #80331D;
-  margin-top: -5%;
+  background-color: #5d0101;
+  margin-top: -1%;
   margin-bottom: 5%;
   padding: 0.5%;
   font-size: 150%;
@@ -88,6 +112,7 @@ header {
   align-self: center;
   flex-direction: row;
 }
+
 
 /* MODAL */
 .container {
@@ -242,7 +267,7 @@ strong{
 }
 
 .tituloProjeto{
-  color: #80331D;
+  color: #5d0101;
 }  
 
 section{
@@ -253,20 +278,16 @@ section.ativo{
   display: block; /* mostra a seção que estiver visível */
 }
 
-.esperando{
+.esperando {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: -4%;
-  font-size: xx-large;
-  font-family: "Afacad Flux", sans-serif;
 }
-
 .esperando img{
-  margin-top: -5%;
-  width: 25%;
-  border-radius: 10%;
+  height: 5%;
+  width: 10%;
+  border: 2px solid white;
 }
 
 #tris1{
@@ -291,7 +312,7 @@ section.ativo{
   padding: 5px 10;
   font-size: 100%;
   color: white;
-  background-color: #80331D; /* Cor de fundo inicial */
+  background-color: #5d0101; /* Cor de fundo inicial */
   text-decoration: none; 
   border-radius: 5px; /* Bordas arredondadas */
   transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
@@ -299,7 +320,7 @@ section.ativo{
 
 /* Estilo ao passar o cursor sobre os links */
 .navTris a:hover {
-  color: #80331D;
+  color: #5d0101;
   background-color: #f8f1df; /* Nova cor de fundo ao passar o mouse */
 }
 
@@ -309,7 +330,7 @@ section.ativo{
     width: 95%;
     height: 5%;
     font-weight: 100;
-    background-color: #80331D;
+    background-color: #5d0101;
     padding: 2%;
     text-align: center;
     margin-bottom: 3%;
