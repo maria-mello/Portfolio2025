@@ -68,7 +68,7 @@ header {
     margin: 1%;
     gap: 5%;
     font-size: 125%;
-    color: rgba(48, 1, 1, 0.842);
+    color: rgb(175, 113, 113);
     transition: transform 0.3s ease-in-out, color 0.4s ease;
 }
 

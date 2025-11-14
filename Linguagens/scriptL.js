@@ -182,3 +182,41 @@ modal8.addEventListener('click', (e) => {
         modal8.style.display = 'none';
     }
 });
+
+// MODAL DA ATT 10 (TERCEIRO TRIMESTRE)
+const modal9 = document.getElementById('modal9'); // chama pelo id do html a div do modal 
+const abrirModal9 = document.getElementById('abrirModal9'); // chama pelo id do html a class do botão para abrir
+const fecharModal9 = document.getElementById('fecharModal9'); // chama pelo id do html a class do botão para fechar
+
+abrirModal9.addEventListener('click', () =>{ // adiciona um evento  ao clicar no botão
+    modal9.style.display = 'flex'; // e nesse evento o modal abre o css que foi criado para ele e o 'display: none;' é substituido pelo 'flex;'
+});
+
+fecharModal9.addEventListener('click', () =>{ // adiciona um evento ao clicar no botão
+    modal9.style.display = 'none'; // nesse evento o 'display: flex;' que tinha sido incluso é trocado de volta pelo 'display: none;'
+}); 
+ 
+modal9.addEventListener('click', (e) => {
+    if (e.target === modal9) { // Verifica se o clique foi fora da área de conteúdo
+        modal9.style.display = 'none';
+    }
+});
+
+// MODAL DA ATT 11 (TERCEIRO TRIMESTRE)
+const modal10 = document.getElementById('modal10'); // chama pelo id do html a div do modal 
+const abrirModal10 = document.getElementById('abrirModal10'); // chama pelo id do html a class do botão para abrir
+const fecharModal10 = document.getElementById('fecharModal10'); // chama pelo id do html a class do botão para fechar
+
+abrirModal10.addEventListener('click', () =>{ // adiciona um evento  ao clicar no botão
+    modal10.style.display = 'flex'; // e nesse evento o modal abre o css que foi criado para ele e o 'display: none;' é substituido pelo 'flex;'
+});
+
+fecharModal10.addEventListener('click', () =>{ // adiciona um evento ao clicar no botão
+    modal10.style.display = 'none'; // nesse evento o 'display: flex;' que tinha sido incluso é trocado de volta pelo 'display: none;'
+}); 
+ 
+modal10.addEventListener('click', (e) => {
+    if (e.target === modal10) { // Verifica se o clique foi fora da área de conteúdo
+        modal10.style.display = 'none';
+    }
+});
