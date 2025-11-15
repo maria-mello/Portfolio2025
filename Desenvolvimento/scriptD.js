@@ -133,3 +133,25 @@ function mostrarTrimestre(numero) {
   const secao = document.getElementById(`trimestre${numero}`);
   if(secao) secao.classList.add('ativo');
 }
+
+
+// ----------------------------TERCEIRO TRIMESTRE (DESENVOLVIMENTO DE SISTEMAS)--------------------------------
+
+// MODAL DA ATT1 DESENVOLVIMENTO DE SISTEMAS
+const modal4 = document.getElementById('modal4'); // chama pelo id do html a div do modal 
+const abrirModal4 = document.getElementById('abrirModal4'); // chama pelo id do html a class do botão para abrir
+const fecharModal4 = document.getElementById('fecharModal4'); // chama pelo id do html a class do botão para fechar
+
+abrirModal4.addEventListener('click', () =>{ // adiciona um evento  ao clicar no botão
+    modal4.style.display = 'flex'; // e nesse evento o modal abre o css que foi criado para ele e o 'display: none;' é substituido pelo 'flex;'
+});
+
+fecharModal4.addEventListener('click', () =>{ // adiciona um evento ao clicar no botão
+    modal4.style.display = 'none'; // nesse evento o 'display: flex;' que tinha sido incluso é trocado de volta pelo 'display: none;'
+});
+
+modal4.addEventListener('click', (e) => {
+    if (e.target === modal4) { // Verifica se o clique foi fora da área de conteúdo
+        modal4.style.display = 'none';
+    }
+});

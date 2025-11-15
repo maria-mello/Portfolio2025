@@ -220,3 +220,22 @@ modal10.addEventListener('click', (e) => {
         modal10.style.display = 'none';
     }
 });
+
+// MODAL DA ATT 12 (TERCEIRO TRIMESTRE)
+const modal11 = document.getElementById('modal11'); // chama pelo id do html a div do modal 
+const abrirModal11 = document.getElementById('abrirModal11'); // chama pelo id do html a class do botão para abrir
+const fecharModal11 = document.getElementById('fecharModal11'); // chama pelo id do html a class do botão para fechar
+
+abrirModal11.addEventListener('click', () =>{ // adiciona um evento  ao clicar no botão
+    modal11.style.display = 'flex'; // e nesse evento o modal abre o css que foi criado para ele e o 'display: none;' é substituido pelo 'flex;'
+});
+
+fecharModal11.addEventListener('click', () =>{ // adiciona um evento ao clicar no botão
+    modal11.style.display = 'none'; // nesse evento o 'display: flex;' que tinha sido incluso é trocado de volta pelo 'display: none;'
+}); 
+ 
+modal11.addEventListener('click', (e) => {
+    if (e.target === modal11) { // Verifica se o clique foi fora da área de conteúdo
+        modal11.style.display = 'none';
+    }
+});

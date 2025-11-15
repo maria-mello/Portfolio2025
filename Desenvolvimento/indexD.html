@@ -38,7 +38,7 @@
     <div class="navTris">   <!-- CRIANDO UMA 'NAVBAR' PARA AS MATÉRIAS DO TÉCNICO -->
         <a onclick="mostrarOpcaoMateria(1)" id="materia1"> MODELAGEM DE SISTEMAS</a>
         <a onclick="mostrarOpcaoMateria(2)" id="materia2"> BANCO DE DADOS</a>
-        <a onclick="mostrarOpcaoMateria(3)" id="materia3"> INTERNET DAS COISAS (IOT)</a>
+        <a onclick="mostrarOpcaoMateria(3)" id="materia3"> DESENVOLVIMENTO DE SISTEMAS </a>
     </div>
 
     <!-- TRIMESTRES MODELAGEM DE SISTEMAS -->
@@ -63,7 +63,7 @@
         </div>
     </div>
 
-    <!-- TRIMESTRES IOT -->
+    <!-- TRIMESTRES DESENVOLVIMENTO -->
     <div class="opcao01" id="opcao3">
         <div class="conteudo">
             <div class="navTris">
@@ -74,217 +74,241 @@
         </div>
     </div>
 
-<section class="(1)" id="trimestre1"> 
-    <div class="container">
-        
-        <div class="card">   <!--  é o cardzinho que esta aparecendo na tela  -->
-        <h2> HAMBURGUERIA </h2>  <hr>
-            <button id="abrirModal">   <!-- todas as informações da tela estão dentro desse botão, que ao clicar vai abrir um modal -->
-                <img src="../Desenvolvimento/img/attD1.png" alt="Imagem">       <!-- ta chamando a imagem da atividade  -->
-                </button>
-        </div>
+<!-- começo de modelagem de sistemas -->
+    <section class="(1)" id="trimestre1"> 
+        <div class="container">
+            
+            <div class="card">   <!--  é o cardzinho que esta aparecendo na tela  -->
+            <h2> HAMBURGUERIA </h2>  <hr>
+                <button id="abrirModal">   <!-- todas as informações da tela estão dentro desse botão, que ao clicar vai abrir um modal -->
+                    <img src="../Desenvolvimento/img/attD1.png" alt="Imagem">       <!-- ta chamando a imagem da atividade  -->
+                    </button>
+            </div>
 
-            <div class="modal" id="modal">   <!-- cria uma divisão só para o que vai dentro do modal -->
-                <div class="conteudoModal">  <!-- dentro dessa div aparece tudo no modal -->
-                    <h4 class="tituloProjeto"> HAMBURGUERIA <hr> </h4> 
-                            <a href="https://docs.google.com/spreadsheets/d/1zeXDrW4tHyuQdu6VeOituDGNo7nwDety7_0EH5teFa0/edit?usp=sharing"> 
-                                <img src="../Desenvolvimento/img/attD1.png" class="imagemModal">       <!-- ta chamando a imagem da atividade  -->
-                            </a>
-                        <p> <strong> HABILIDADES E COMPETÊNCIAS: </strong> H4, H7, H8 </p>
-                        <p> <strong> OBJETIVO: </strong> Ensinar a importância e como documentar requisitos não funcionais em sistemas. </p>
-                        <p> <strong> ASSUNTO: </strong> Mostra como identificar, classificar e escrever requisitos que definem como o sistema deve funcionar (ex: desempenho, segurança, usabilidade), com aplicação prática em um sistema que deveríamos criar de uma hamburgueria.</p>
-                        <p> <strong> CRÍTICA: </strong> Esse conteúdo destaca que um sistema não funciona sozinho, e mesmo se funcionar, ele precisa funcionar bem, com qualidade e boa experiência para o usuário. A documentação dos requisitos não funcionais ajuda a garantir isso. </p>
-                    <button id="fecharModal" class="fecharModal"> Voltar </button> <!-- esse é o botão para sair -->
+                <div class="modal" id="modal">   <!-- cria uma divisão só para o que vai dentro do modal -->
+                    <div class="conteudoModal">  <!-- dentro dessa div aparece tudo no modal -->
+                        <h4 class="tituloProjeto"> HAMBURGUERIA <hr> </h4> 
+                                <a href="https://docs.google.com/spreadsheets/d/1zeXDrW4tHyuQdu6VeOituDGNo7nwDety7_0EH5teFa0/edit?usp=sharing"> 
+                                    <img src="../Desenvolvimento/img/attD1.png" class="imagemModal">       <!-- ta chamando a imagem da atividade  -->
+                                </a>
+                            <p> <strong> HABILIDADES E COMPETÊNCIAS: </strong> H4, H7, H8 </p>
+                            <p> <strong> OBJETIVO: </strong> Ensinar a importância e como documentar requisitos não funcionais em sistemas. </p>
+                            <p> <strong> ASSUNTO: </strong> Mostra como identificar, classificar e escrever requisitos que definem como o sistema deve funcionar (ex: desempenho, segurança, usabilidade), com aplicação prática em um sistema que deveríamos criar de uma hamburgueria.</p>
+                            <p> <strong> CRÍTICA: </strong> Esse conteúdo destaca que um sistema não funciona sozinho, e mesmo se funcionar, ele precisa funcionar bem, com qualidade e boa experiência para o usuário. A documentação dos requisitos não funcionais ajuda a garantir isso. </p>
+                        <button id="fecharModal" class="fecharModal"> Voltar </button> <!-- esse é o botão para sair -->
+                    </div>
+                </div>
+
+            <div class="card">
+                <h2> LIGHT POINT (S.A) </h2>  <hr>
+                
+                <button id="abrirModal1">   <!-- todas as informações da tela estão dentro desse botão, que ao clicar vai abrir um modal -->
+                    <img src="../Desenvolvimento/img/attD2.png" alt="Imagem">       <!-- ta chamando a imagem da atividade  -->
+                </button>
+            </div>
+
+            <div class="modal" id="modal1">  <!-- cria uma divisão só para o que vai dentro do modal -->
+
+                <div class="conteudoModal1"> <!-- dentro dessa div aparece tudo no modal -->
+                    <h4 class="tituloProjeto"> LIGHT POINT (S.A) </h4>
+
+                        <a href="https://www.canva.com/design/DAGh-y_PTiU/66hB8Hqlm6Eqfocm5QP6rQ/edit?utm_content=DAGh-y_PTiU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> 
+                            <img src="../Desenvolvimento/img/attD2.png" class="imagemModal">       <!-- ta chamando a imagem da atividade  -->
+                        </a>
+                    <p> <strong> HABILIDADES E COMPETÊNCIAS: </strong> H1, H2, H3, H4, H6, H7 </p>
+                    <p> <strong> OBJETIVO: </strong> Desenvolver e implantar um sistema inteligente de monitoramento e controle do consumo de energia elétrica em residências, utilizando sensores IoT, banco de dados e aplicativos móveis, com foco em otimizar o uso da energia e promover sustentabilidade. </p>
+                    <p> <strong> ASSUNTO: </strong> O projeto faz parte da Situação de Aprendizagem (SA) do 3º ano do curso técnico do SENAI, integrando diversas disciplinas como Banco de Dados, IoT, Programação de Aplicativos, Modelagem de Sistemas, entre outras.  A proposta é criar um sistema inteligente que use tecnologia IoT para monitorar o consumo de energia em tempo real, gerar alertas e relatórios, e auxiliar o usuário a reduzir desperdícios, otimizando o consumo. </p>
+                    <p> <strong> CRÍTICA: </strong> Eu adorei fazer essa atividade! Meu grupo foi incrível, super colaborativo e criativo, trabalhar com eles fez total diferença. O tema que escolhemos está sendo muito legal de desenvolver, e foi super satisfatório ver tudo tomando forma aos poucos. Essa abordagem prática e contínua ajudou bastante a fixar o conteúdo.</p>
+                <button id="fecharModal1" class="fecharModal"> Voltar </button> <!-- esse é o botão para sair -->
                 </div>
             </div>
-
-        <div class="card">
-            <h2> LIGHT POINT (S.A) </h2>  <hr>
-            
-            <button id="abrirModal1">   <!-- todas as informações da tela estão dentro desse botão, que ao clicar vai abrir um modal -->
-                <img src="../Desenvolvimento/img/attD2.png" alt="Imagem">       <!-- ta chamando a imagem da atividade  -->
-            </button>
-        </div>
-
-        <div class="modal" id="modal1">  <!-- cria uma divisão só para o que vai dentro do modal -->
-
-            <div class="conteudoModal1"> <!-- dentro dessa div aparece tudo no modal -->
-                <h4 class="tituloProjeto"> LIGHT POINT (S.A) </h4>
-
-                    <a href="https://www.canva.com/design/DAGh-y_PTiU/66hB8Hqlm6Eqfocm5QP6rQ/edit?utm_content=DAGh-y_PTiU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> 
-                        <img src="../Desenvolvimento/img/attD2.png" class="imagemModal">       <!-- ta chamando a imagem da atividade  -->
-                    </a>
-                <p> <strong> HABILIDADES E COMPETÊNCIAS: </strong> H1, H2, H3, H4, H6, H7 </p>
-                <p> <strong> OBJETIVO: </strong> Desenvolver e implantar um sistema inteligente de monitoramento e controle do consumo de energia elétrica em residências, utilizando sensores IoT, banco de dados e aplicativos móveis, com foco em otimizar o uso da energia e promover sustentabilidade. </p>
-                <p> <strong> ASSUNTO: </strong> O projeto faz parte da Situação de Aprendizagem (SA) do 3º ano do curso técnico do SENAI, integrando diversas disciplinas como Banco de Dados, IoT, Programação de Aplicativos, Modelagem de Sistemas, entre outras.  A proposta é criar um sistema inteligente que use tecnologia IoT para monitorar o consumo de energia em tempo real, gerar alertas e relatórios, e auxiliar o usuário a reduzir desperdícios, otimizando o consumo. </p>
-                <p> <strong> CRÍTICA: </strong> Eu adorei fazer essa atividade! Meu grupo foi incrível, super colaborativo e criativo, trabalhar com eles fez total diferença. O tema que escolhemos está sendo muito legal de desenvolver, e foi super satisfatório ver tudo tomando forma aos poucos. Essa abordagem prática e contínua ajudou bastante a fixar o conteúdo.</p>
-            <button id="fecharModal1" class="fecharModal"> Voltar </button> <!-- esse é o botão para sair -->
             </div>
+        <div class="rodape"> 
+        <hr>
+        <h4 class="txtRodape"> Maria Eduarda Mello <br>
+            Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
+            © 2025
+        </h4>
         </div>
+    </section>
+        
+    <section class="(2)" id="trimestre2">
+            <div class="container">
+            
+            <div class="card">   <!--  é o cardzinho que esta aparecendo na tela  -->
+            <h2> LIGHT POINT (S.A) </h2>  <hr>
+                <button id="abrirModal2">   <!-- todas as informações da tela estão dentro desse botão, que ao clicar vai abrir um modal -->
+                    <img src="../Desenvolvimento/img/attD3.png" alt="Imagem">       <!-- ta chamando a imagem da atividade  -->
+                    </button>
+            </div>
+
+                <div class="modal" id="modal2">   <!-- cria uma divisão só para o que vai dentro do modal -->
+                    <div class="conteudoModal">  <!-- dentro dessa div aparece tudo no modal -->
+                        <h4 class="tituloProjeto"> LIGHT POINT (S.A)<hr> </h4>
+                        <a href="https://www.figma.com/proto/T5jprqOxk7hMhNxDw2uFv9/FIGMA-LIGHTPOINT?node-id=1-4&starting-point-node-id=1%3A4&t=SLh8YSBrmP7JVKRS-1">
+                            <img src="../Desenvolvimento/img/attD3.png" class="imagemModal">       <!-- ta chamando a imagem da atividade  -->
+                        </a>
+                        <p> <strong> HABILIDADES E COMPETÊNCIAS: </strong> H1 a H7 </p>
+                        <p> <strong> OBJETIVO: </strong> Criar um protótipo no Figma visa facilitar a visualização de interfaces, desenvolver habilidades práticas em design, promover a colaboração entre alunos e incentivar a iteração rápida de ideias. </p>
+                            <p> <strong> ASSUNTO: </strong> Os assuntos integrados incluem design de interface, experiência do usuário (UX), desenvolvimento front-end, metodologias ágeis e testes de usabilidade. </p>
+                            <p> <strong> CRÍTICA: </strong> Inicialmente, posso admitir que odiei a ideia de ter que fazer um Figma tão grande para a nossa Situação de Aprendizagem. Quer dizer, é um projeto extenso que demandaria muito tempo para ficar pronto. Mesmo sendo apenas um protótipo, queríamos que ficasse bem feito e interativo, com todas as funcionalidades que imaginamos, para lembrar de implementá-las quando formos codar o site. Ou seja: deu muito trabalho. Mas, apesar de todo o esforço e do tempo investido, posso dizer que gostei de aprender a mexer melhor no Figma e fiquei orgulhosa do resultado que entregamos. Todos trabalharam juntos e conseguimos finalizar um trabalho que considero, no mínimo, satisfatório. Apesar de ter me irritado um pouco no decorrer do processo, essa foi uma das atividades que eu mais gostei de fazer esse trimestre. </p>
+                        <button id="fecharModal2" class="fecharModal"> Voltar </button> <!-- esse é o botão para sair -->
+                    </div>
+                </div>
+            </div>
+        <div class="rodape"> 
+        <hr>
+        <h4 class="txtRodape"> Maria Eduarda Mello <br>
+            Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
+            © 2025
+        </h4>
         </div>
-    <div class="rodape"> 
-    <hr>
-    <h4 class="txtRodape"> Maria Eduarda Mello <br>
-        Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
-        © 2025
-    </h4>
-    </div>
-</section>
-    
-<section class="(2)" id="trimestre2">
+    </section>
+        
+    <section class="(3)" id="trimestre3">
+        <div class='esperando'>
+            <h3> Nenhuma atividade disponível! </h3> <br> 
+            <img src="../Desenvolvimento/img/novosTris.jpg">
+        </div>
+
+        <div class="rodape"> 
+        <hr>
+        <h4 class="txtRodape"> Maria Eduarda Mello <br>
+            Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
+            © 2025
+        </h4>
+        </div>
+    </section>
+<!-- fim de modelagem de sistemas -->
+
+<!-- começo de banco de dados -->
+    <section class="(4)" id="trimestre4"> 
+        <div class='esperando'>
+            <h3> Nenhuma atividade disponível! </h3> <br> 
+            <img src="../Desenvolvimento/img/novosTris4.jpg">
+        </div>
+        <div class="rodape"> 
+        <hr>
+        <h4 class="txtRodape"> Maria Eduarda Mello <br>
+            Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
+            © 2025
+        </h4>
+        </div>
+    </section>
+        
+    <section class="(5)" id="trimestre5">
         <div class="container">
         
         <div class="card">   <!--  é o cardzinho que esta aparecendo na tela  -->
-        <h2> LIGHT POINT (S.A) </h2>  <hr>
-            <button id="abrirModal2">   <!-- todas as informações da tela estão dentro desse botão, que ao clicar vai abrir um modal -->
-                <img src="../Desenvolvimento/img/attD3.png" alt="Imagem">       <!-- ta chamando a imagem da atividade  -->
+        <h2> MODELAGEM CONCEITUAL </h2>  <hr>
+            <button id="abrirModal3">   <!-- todas as informações da tela estão dentro desse botão, que ao clicar vai abrir um modal -->
+                <img src="../Desenvolvimento/img/attD4.png" alt="Imagem">       <!-- ta chamando a imagem da atividade  -->
                 </button>
         </div>
 
-            <div class="modal" id="modal2">   <!-- cria uma divisão só para o que vai dentro do modal -->
-                <div class="conteudoModal2">  <!-- dentro dessa div aparece tudo no modal -->
-                    <h4 class="tituloProjeto"> LIGHT POINT (S.A)<hr> </h4>
-                    <a href="https://www.figma.com/proto/T5jprqOxk7hMhNxDw2uFv9/FIGMA-LIGHTPOINT?node-id=1-4&starting-point-node-id=1%3A4&t=SLh8YSBrmP7JVKRS-1">
-                        <img src="../Desenvolvimento/img/attD3.png" class="imagemModal">       <!-- ta chamando a imagem da atividade  -->
+            <div class="modal" id="modal3">   <!-- cria uma divisão só para o que vai dentro do modal -->
+                <div class="conteudoModal">  <!-- dentro dessa div aparece tudo no modal -->
+                    <h4 class="tituloProjeto"> MODELAGEM CONCEITUAL <hr> </h4>
+                    <a href="https://www.canva.com/design/DAGw0E_uMD8/Ji-hnTiUOwFsHDQX7GwdsQ/edit?utm_content=DAGw0E_uMD8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+                        <img src="../Desenvolvimento/img/attD4.png" class="imagemModal">       <!-- ta chamando a imagem da atividade  -->
                     </a>
                     <p> <strong> HABILIDADES E COMPETÊNCIAS: </strong> H1 a H7 </p>
-                    <p> <strong> OBJETIVO: </strong> Criar um protótipo no Figma visa facilitar a visualização de interfaces, desenvolver habilidades práticas em design, promover a colaboração entre alunos e incentivar a iteração rápida de ideias. </p>
-                        <p> <strong> ASSUNTO: </strong> Os assuntos integrados incluem design de interface, experiência do usuário (UX), desenvolvimento front-end, metodologias ágeis e testes de usabilidade. </p>
-                        <p> <strong> CRÍTICA: </strong> Inicialmente, posso admitir que odiei a ideia de ter que fazer um Figma tão grande para a nossa Situação de Aprendizagem. Quer dizer, é um projeto extenso que demandaria muito tempo para ficar pronto. Mesmo sendo apenas um protótipo, queríamos que ficasse bem feito e interativo, com todas as funcionalidades que imaginamos, para lembrar de implementá-las quando formos codar o site. Ou seja: deu muito trabalho. Mas, apesar de todo o esforço e do tempo investido, posso dizer que gostei de aprender a mexer melhor no Figma e fiquei orgulhosa do resultado que entregamos. Todos trabalharam juntos e conseguimos finalizar um trabalho que considero, no mínimo, satisfatório. Apesar de ter me irritado um pouco no decorrer do processo, essa foi uma das atividades que eu mais gostei de fazer esse trimestre. </p>
-                    <button id="fecharModal2" class="fecharModal"> Voltar </button> <!-- esse é o botão para sair -->
+                    <p> <strong> OBJETIVO: </strong> Compreender e aplicar modelos conceituais para representar informações e relações de um sistema de forma clara e organizada, permitindo a análise e documentação antes da implementação. </p>
+                        <p> <strong> ASSUNTO: </strong> Diagramas de entidade-relacionamento (DER) e diagramas UML, identificação de entidades, atributos, relacionamentos e regras de negócio, mostrando como estruturar os dados e processos de maneira eficiente para apoiar o desenvolvimento de sistemas e bancos de dados.</p>
+                        <p> <strong> CRÍTICA: </strong> Eu até que gostei bastante dessa matéria, a atividade foi bem explicada e em qualquer caso de dúvida a professora estava lá para nos auxiliar.  </p>
+                    <button id="fecharModal3" class="fecharModal"> Voltar </button> <!-- esse é o botão para sair -->
                 </div>
             </div>
         </div>
-    <div class="rodape"> 
-    <hr>
-    <h4 class="txtRodape"> Maria Eduarda Mello <br>
-        Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
-        © 2025
-    </h4>
-    </div>
-</section>
-    
-<section class="(3)" id="trimestre3">
-    <div class='esperando'>
-        <h3> Nenhuma atividade disponível! </h3> <br> 
-        <img src="../Desenvolvimento/img/novosTris.jpg">
-    </div>
-
-    <div class="rodape"> 
-    <hr>
-    <h4 class="txtRodape"> Maria Eduarda Mello <br>
-        Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
-        © 2025
-    </h4>
-    </div>
-</section>
-
-<section class="(4)" id="trimestre4"> 
-    <div class='esperando'>
-        <h3> Nenhuma atividade disponível! </h3> <br> 
-        <img src="../Desenvolvimento/img/novosTris4.jpg">
-    </div>
-    <div class="rodape"> 
-    <hr>
-    <h4 class="txtRodape"> Maria Eduarda Mello <br>
-        Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
-        © 2025
-    </h4>
-    </div>
-</section>
-    
-<section class="(5)" id="trimestre5">
-    <div class="container">
-    
-    <div class="card">   <!--  é o cardzinho que esta aparecendo na tela  -->
-    <h2> MODELAGEM CONCEITUAL </h2>  <hr>
-        <button id="abrirModal3">   <!-- todas as informações da tela estão dentro desse botão, que ao clicar vai abrir um modal -->
-            <img src="../Desenvolvimento/img/attD4.png" alt="Imagem">       <!-- ta chamando a imagem da atividade  -->
-            </button>
-    </div>
-
-        <div class="modal" id="modal3">   <!-- cria uma divisão só para o que vai dentro do modal -->
-            <div class="conteudoModal3">  <!-- dentro dessa div aparece tudo no modal -->
-                <h4 class="tituloProjeto"> MODELAGEM CONCEITUAL <hr> </h4>
-                <a href="https://www.canva.com/design/DAGw0E_uMD8/Ji-hnTiUOwFsHDQX7GwdsQ/edit?utm_content=DAGw0E_uMD8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
-                    <img src="../Desenvolvimento/img/attD4.png" class="imagemModal">       <!-- ta chamando a imagem da atividade  -->
-                </a>
-                <p> <strong> HABILIDADES E COMPETÊNCIAS: </strong> H1 a H7 </p>
-                <p> <strong> OBJETIVO: </strong> Compreender e aplicar modelos conceituais para representar informações e relações de um sistema de forma clara e organizada, permitindo a análise e documentação antes da implementação. </p>
-                    <p> <strong> ASSUNTO: </strong> Diagramas de entidade-relacionamento (DER) e diagramas UML, identificação de entidades, atributos, relacionamentos e regras de negócio, mostrando como estruturar os dados e processos de maneira eficiente para apoiar o desenvolvimento de sistemas e bancos de dados.</p>
-                    <p> <strong> CRÍTICA: </strong> Eu até que gostei bastante dessa matéria, a atividade foi bem explicada e em qualquer caso de dúvida a professora estava lá para nos auxiliar.  </p>
-                <button id="fecharModal3" class="fecharModal"> Voltar </button> <!-- esse é o botão para sair -->
-            </div>
+        <div class="rodape"> 
+            <hr>
+        <h4 class="txtRodape"> Maria Eduarda Mello <br>
+            Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
+            © 2025
+        </h4>
         </div>
-    </div>
-    <div class="rodape"> 
-        <hr>
-    <h4 class="txtRodape"> Maria Eduarda Mello <br>
-        Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
-        © 2025
-    </h4>
-    </div>
-</section>
-    
-<section class="(6)" id="trimestre6">
-    <div class='esperando'>
-        <h3> Nenhuma atividade disponível! </h3> <br> 
-        <img src="../Desenvolvimento/img/novosTris5.jpg">
-    </div>
-
-    <div class="rodape"> 
-    <hr>
-    <h4 class="txtRodape"> Maria Eduarda Mello <br>
-        Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
-        © 2025
-    </h4>
-    </div>
-</section>
-
-<section class="(7)" id="trimestre7"> 
-    <div class='esperando'>
-        <h3> Nenhuma atividade disponível! </h3> <br> 
-        <img src="../Desenvolvimento/img/novosTris2.jpg">
-    </div>
-
-    <div class="rodape"> 
-    <hr>
-    <h4 class="txtRodape"> Maria Eduarda Mello <br>
-        Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
-        © 2025
-    </h4>
-    </div>
-</section>
-    
-<section class="(8)" id="trimestre8">
+    </section>
+        
+    <section class="(6)" id="trimestre6">
         <div class='esperando'>
-        <h3> Nenhuma atividade disponível! </h3> <br> 
-        <img src="../Desenvolvimento/img/novosTris1.jpg">
-    </div>
+            <h3> Nenhuma atividade disponível! </h3> <br> 
+            <img src="../Desenvolvimento/img/novosTris5.jpg">
+        </div>
 
-    <div class="rodape"> 
-    <hr>
-    <h4 class="txtRodape"> Maria Eduarda Mello <br>
-        Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
-        © 2025
-    </h4>
-    </div>
-</section>
-    
-<section class="(9)" id="trimestre9">
-    <div class='esperando'>
-        <h3> Nenhuma atividade disponível! </h3> <br> 
-        <img src="../Desenvolvimento/img/novosTris.jpg">
-    </div>
+        <div class="rodape"> 
+        <hr>
+        <h4 class="txtRodape"> Maria Eduarda Mello <br>
+            Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
+            © 2025
+        </h4>
+        </div>
+    </section>
+<!-- fim de banco de dados -->
 
-    <div class="rodape"> 
-    <hr>
-    <h4 class="txtRodape"> Maria Eduarda Mello <br>
-        Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
-        © 2025
-    </h4>
-    </div>
-</section>
+<!-- começo de desenvolvimento de sistemas -->
+    <section class="(7)" id="trimestre7"> 
+        <div class='esperando'>
+            <h3> Nenhuma atividade disponível! </h3> <br> 
+            <img src="../Desenvolvimento/img/novosTris2.jpg">
+        </div>
+
+        <div class="rodape"> 
+        <hr>
+        <h4 class="txtRodape"> Maria Eduarda Mello <br>
+            Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
+            © 2025
+        </h4>
+        </div>
+    </section>
+        
+    <section class="(8)" id="trimestre8">
+            <div class='esperando'>
+            <h3> Nenhuma atividade disponível! </h3> <br> 
+            <img src="../Desenvolvimento/img/novosTris1.jpg">
+        </div>
+
+        <div class="rodape"> 
+        <hr>
+        <h4 class="txtRodape"> Maria Eduarda Mello <br>
+            Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
+            © 2025
+        </h4>
+        </div>
+    </section>
+        
+    <section class="(9)" id="trimestre9">
+        <div class='container'>
+            <div class="card">   <!--  é o cardzinho que esta aparecendo na tela  -->
+            <h2> LIGHT POINT (S.A) </h2>  <hr>
+                <button id="abrirModal4">   <!-- todas as informações da tela estão dentro desse botão, que ao clicar vai abrir um modal -->
+                    <img src="../Desenvolvimento/img/attD3.png" alt="Imagem">       <!-- ta chamando a imagem da atividade  -->
+                    </button>
+            </div>
+
+                <div class="modal" id="modal4">   <!-- cria uma divisão só para o que vai dentro do modal -->
+                    <div class="conteudoModal">  <!-- dentro dessa div aparece tudo no modal -->
+                        <h4 class="tituloProjeto"> LIGHT POINT (S.A) <hr> </h4>
+                        <a href="https://www.figma.com/proto/T5jprqOxk7hMhNxDw2uFv9/FIGMA-LIGHTPOINT?node-id=1-4&starting-point-node-id=1%3A4&t=SLh8YSBrmP7JVKRS-1">
+                            <img src="../Desenvolvimento/img/attD3.png" class="imagemModal">       <!-- ta chamando a imagem da atividade  -->
+                        </a>
+                        <p> <strong> HABILIDADES E COMPETÊNCIAS:  TESI </strong> C1 - H1, H9 / <strong> IMSI </strong> C1 - H3, H5, H8, H10 & <strong> DESI </strong> C1 - H5, H6, H7, H10 </p>
+                        <p> <strong> OBJETIVO: </strong> Criar um protótipo no Figma visa facilitar a visualização de interfaces, desenvolver habilidades práticas em design, promover a colaboração entre alunos e incentivar a iteração rápida de ideias. </p>
+                            <p> <strong> ASSUNTO: </strong> Os assuntos integrados incluem design de interface, experiência do usuário (UX), desenvolvimento front-end, metodologias ágeis e testes de usabilidade. </p>
+                            <p> <strong> CRÍTICA: </strong> Inicialmente, posso admitir que odiei a ideia de ter que fazer um Figma tão grande para a nossa Situação de Aprendizagem. Quer dizer, é um projeto extenso que demandaria muito tempo para ficar pronto. Mesmo sendo apenas um protótipo, queríamos que ficasse bem feito e interativo, com todas as funcionalidades que imaginamos, para lembrar de implementá-las quando formos codar o site. Ou seja: deu muito trabalho. Mas, apesar de todo o esforço e do tempo investido, posso dizer que gostei de aprender a mexer melhor no Figma e fiquei orgulhosa do resultado que entregamos. Todos trabalharam juntos e conseguimos finalizar um trabalho que considero, no mínimo, satisfatório. Apesar de ter me irritado um pouco no decorrer do processo, essa foi uma das atividades que eu mais gostei de fazer esse trimestre. </p>
+                        <button id="fecharModal4" class="fecharModal"> Voltar </button> <!-- esse é o botão para sair -->
+                    </div>
+                </div>
+        </div>
+
+        <div class="rodape"> 
+        <hr>
+        <h4 class="txtRodape"> Maria Eduarda Mello <br>
+            Fone: (48) 9 8426-0722 | <a href="https://github.com/maria-mello" > Git-Hub: maria-mello </a> <br>
+            © 2025
+        </h4>
+        </div>
+    </section>
+<!-- fim de desenvolvimento de sistemas -->
 
 <script src="scriptD.js"> </script> <!-- link do JavaScript -->
 </body>
